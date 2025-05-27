@@ -106,8 +106,6 @@ innerChart.call(tooltip);
     d3.selectAll("circle").style("opacity", null); // or your original default
   });
 
-
-
   // --------------------------------------
   // Drawing header 
   // --------------------------------------
