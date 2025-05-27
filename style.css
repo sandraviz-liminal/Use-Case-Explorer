@@ -1,0 +1,306 @@
+/*--------------------------------------*/
+/* Global stylings */
+/*--------------------------------------*/
+
+html {
+	--color-text:  #818196;
+    --color-gray: #B4B4B4;
+    --color-repo: #64d6d3;
+    --color-dark: #2D2D2D;
+    --color-background: #f7f7f7;
+    --color-gradient: linear-gradient(to right, var(--color-dark), var(--color-repo), var(--color-dark)) 1;
+}
+
+body {
+	font-family: "Inter";
+	font-optical-sizing: auto;
+	font-size: 10px;
+	font-weight: 300;
+	font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+/*--------------------------------------*/
+/* Tooltip */
+/*--------------------------------------*/
+ 
+.tooltip {
+	font-family: "Inter";
+	background-color: var(--color-background);
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	padding: 1em 1em 0.8em 1em;
+	padding-top: 1.5em; 
+	max-width: 280px;
+	color: var(--color-text);
+	pointer-events: none;
+	font-size: 1em;
+	line-height: 1.5em;
+	position: relative;
+	background-clip: padding-box;
+	opacity: 1;
+  }
+  
+  /* Colored top border stripe */
+  /* .tooltip::before {
+	content: "";
+	display: block;
+	height: 5px;
+	background: var(--color-gray);
+	border-top-left-radius: 8px;
+	border-top-right-radius: 8px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+  } */
+  
+  .tooltip-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 0.9em;
+  }
+  
+  .tooltip-title {
+	font-size: 1.3em;
+	font-weight: 700;
+	color: var(--color-dark);
+	margin-top: 0.2em;
+  }
+  
+  .tooltip-section {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .tooltip-label {
+	font-weight: 600;
+	font-size: 1em;
+	font-style: italic;
+	color: var(--color-gray);
+	margin-bottom: 0.2em;
+  }
+  
+  .tooltip-value {
+	font-size: 1em;
+	color: var(--color-text);
+  }
+  
+/*--------------------------------------*/
+/* Chart stylings */
+/*--------------------------------------*/
+
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	width: 100%;
+	height: auto;
+	min-height: calc(100% - 40px);
+}
+
+.text1 {
+	position: absolute;
+	width: 452px;
+	height: 326px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 40px;
+	fill: var(--color-text);
+}
+
+/*--------------------------------------*/
+/* Axes stylings */
+/*--------------------------------------*/
+
+.y-axis text {
+	position: absolute;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 40px;
+	fill: var(--color-text);
+}
+
+.x-axis,
+.y-axis path {
+	stroke-width: 0;
+	stroke-opacity: 0;
+	stroke: white;
+}
+
+.x-axis line {
+	fill: none;
+	stroke-width: 0.5;
+	stroke-opacity: 0.5;
+	stroke: white;
+}
+
+.y-axis line {
+	stroke-width: 0.1;
+	stroke-opacity: 1;
+	stroke: white;
+}
+
+
+
+.central-repo {
+    background: var(--color-repo);
+    padding: 0.1em 0.3em;
+    font-weight: 700;
+    color: white
+}
+
+.contributor {
+	background: var(--color-repo);
+    padding: 0.1em 0.3em;
+    font-weight: 700;
+}
+
+.repository {
+    background: var(--color-repo);
+    padding: 0.1em 0.3em;
+    font-weight: 700;
+}
+
+.repo-name-only {
+    font-style: italic;
+}
+
+.owner {
+	background: var(--color-repo);
+    padding: 0.1em 0.3em;
+    font-weight: 700;
+}
+
+p {
+    line-height: 140%;
+    color: var(--color-text);
+}
+
+.double-column {
+    padding: 3em 5em 2em 5em;
+    font-size: 1.2em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 7em;
+    row-gap: 1em;
+}
+
+.double-column .header {
+    text-align: center;
+    font-size: 1.0em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
+    border-bottom: 3px solid var(--color-repo);
+    border-image: var(--color-gradient);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.double-column p {
+    line-height: 160%;
+    font-size: 0.8em;
+}
+
+
+a {
+    border-bottom: 3px solid var(--color-repo);
+    border-image:linear-gradient(to right, var(--color-repo), var(--color-contributor)) 1;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+/*************************************/
+/*************** INTRO ***************/
+/*************************************/
+
+#chart-wrapper {
+    min-width: 900px; /* Min size that the visual can becom */
+    max-width: 1400px; /* Max size that the visual can become */
+    border-top: 10px solid var(--color-repo);
+    border-image: var(--color-gradient);
+    margin: 0 auto;
+}
+
+#chart-introduction {  
+	font-family: "Inter";
+	background: linear-gradient(to bottom, rgba(247, 247, 247, 0) 50%, rgba(247, 247, 247, 1) 100%);
+    padding: 3em 5em 2em 5em;
+    display: grid;
+    justify-content: center;
+    align-items: top;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5em;
+    row-gap: 5em;
+}
+
+#chart-title {
+	font-family: "Inter";
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#chart-title h1 {
+	font-family: "Inter";
+    font-weight: 400;
+    font-size: 2.4em;
+    font-style: italic;
+    margin-bottom: 0.5em; 
+    margin-top: 0em;
+}
+
+#chart-title h1#title-repo-name {
+	font-family: "Inter";
+    font-weight: 700;
+    font-size: 2em;
+    margin-top: 0.5em;
+    font-style: normal;
+}
+
+#chart-intro-text {
+	font-family: "Inter";
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+#explanation-link {
+    border-bottom: 2px solid var(--color-repo);
+    border-image: linear-gradient(to right, var(--color-owner), var(--color-contributor), var(--color-repo)) 1;
+    font-size: 0.9em;
+    font-style: italic;
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+/*************************************/
+/******* EXPLANATION / LEGEND ********/
+/*************************************/
+
+#chart-explanation {
+    background: linear-gradient(to bottom, rgba(247, 247, 247, 1) 50%, rgba(247, 247, 247, 0) 100%);
+}
+
+
+
+

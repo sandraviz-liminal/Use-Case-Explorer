@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Use case viz example</title>
+
+    <!-- Styling -->
+    <link rel="stylesheet" type="text/css" href="style.css" /> 
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">  
+  </head>
+
+  <body>
+    <div id="chart-wrapper">
+
+      <!-- Chart introduction -->  
+      <div id="chart-introduction">
+ 
+        <div id="chart-title">
+          <h1>Age Estimation</h1>
+          <h1><span id="title-repo-name" class="central-repo">Requirements and capabilities</span></h1>
+        </div>
+     
+        <div id="chart-intro-text">
+              <p>The <span class="repo-name central-repo">visualisation </span> shows all products that corresponds to this use case.  <span id="repo-num-contributors"></span><span class="contributor">contributors</span> since it was created<span id="first-commit-date"></span>.</p>
+              <p>The visual below shows all of the contributors to <span class="repo-name-only">pdf.js</span> and focuses on the <span class="top-contributor-num"></span>contributors that have made the most commits and/or are supported through <strong>ORCA</strong> 
+                (the <strong>"Open Retrospective Compensation Agreement"</strong>). Revealing how they are involved with<span id="top-repo-num"> other</span> <span class="repository">repositories</span> as well.</p>
+              <p>These top contributors are separated into two outer rings. In the inner ring we find those that have been supported via ORCA for their work on <span class="repo-name-only">pdf.js</span>. Whereas in the outer ring we find those that have not.</p>
+              <p>In the <strong>center we focus on the connections <i>amongst</i> contributors</strong>. Where we can find those repositories that multiple contributors have worked on (and the <span class="owner">owners</span>, if there is more than one of their repos present).</p>
+              <p>Explore the ecosystem of open source projects that are touched by the top contributors to <span class="repo-name-only">pdf.js</span>. See how the impact of ORCA <i>could</i> reach far wider than just that one repository.</p>
+              <p><a id="explanation-link" href="#chart-explanation"><strong>A full explanation on how to read the network can be found just below the visual.</strong></a></p>
+        </div>
+      </div>
+
+      <!-- Chart -->
+      <div class="container">
+        <div id="chart"></div>
+      </div>
+
+      <!-- Chart explanation-->
+      <div id="chart-explanation" class="double-column">
+          <p class="header"><strong>HOW TO READ THE VISUALIZATION</strong></p>    
+          <div>
+              <p><span class="central-repo">COLOR</span> | <span class="contributor">Requirements</span> are shown in different colorse to help distinguish them.   
+              <p><span class="central-repo">CIRCLES</span> | <span class="contributor">Importance of capabilities</span>  The circles show the level of importance for each capability, categorised into HIGH, MEIDUM and LOW.</p>             
+          </div>
+          <div>    
+              <p>When you hover over a <span class="contributor">contributor</span> you might see pink arcs around the <span class="repository">repositories</span> that are connected to them. The idea is the same as the purple arcs, but now you can see for how much time that contributor has been active for each of the repositories that they are connected to. Often it can be only one or two commits, which won't visibly show an arc because the time scale is too short. If you want to investigate any of the repositories that a certain contributor is connected to, click on the contributor to fix all of their connected repositories in place and hover over each to reveal even more information.</p>         
+              <p><strong>INTERACTION</strong> | <strong>Hover over any circle</strong> to see all of its connections; From a <span class="contributor">contributor</span> to all the repositories that they've worked on or from one <span class="repository">repository</span> to all of the (top) contributors that have worked on it. <strong>Click on a circle</strong> to fix the visual with all the circle's links highlighted to better investigate its network of direct connections.</p>
+          </div>
+      </div>
+
+      <!-- Notes-->
+      <div id="chart-notes" class="double-column">
+          <p class="header"><strong>DATA & VISIAL NOTES</strong></p>
+          <p>Only repositories that have at least 30 stars have been taken into account. Contributors could have made commits to repositories with fewer stars (or private ones). Those repositories are not visualized here.</p>
+          <p>During the data preparation and analysis phase we tried to group the top contributors to a <i>unique</i> person by grouping all commits coming from the same email address and/or coming from the exact same name. The name that was used the most for all these commits is taken as the contributor's "name".</p>
+          <p>You can find the code and explanation on how to apply it to other repositories in this visual's <a href="https://github.com/nbremer/ORCA/tree/main/top-contributor-network" target="_blank">GitHub repository</a>.</p>      
+      </div>
+    </div>
+
+    <!-- JavaScript libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+    <script src="https://unpkg.com/d3-v6-tip@1.0.6/build/d3-v6-tip.js"></script>
+          
+    <!-- Custom JavaScript file -->
+    <script src="chart.js"></script>
+
+  </body>
+</html>
