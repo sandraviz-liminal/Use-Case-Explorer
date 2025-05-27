@@ -8,4 +8,8 @@ The Use Case Explorer enhances the existing tool with advanced integration betwe
 
 - [INTEGRATION LINK UI](https://www.notion.so/liminal-strategy/Data-Viz-integration-on-Link-UI-1f310d6a5ff7809492dcf092be5a3c2f)
 
+- [JIRA](https://liminalstrategy.atlassian.net/browse/LINK-3068?atlOrigin=eyJpIjoiZTA3NGQ4MTRkYjk3NGJmNTgyNGU3NDA0MDEzY2NkZWQiLCJwIjoiaiJ9)
+
+
+
 
