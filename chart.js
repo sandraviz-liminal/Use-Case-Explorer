@@ -4,7 +4,7 @@
 
   const margin = { top: 300, right: 200, bottom: 30, left: 350 };
   const width = 2000;
-  const height = 3500;
+  const height = 6000;
   const innerwidth = width - margin.left - margin.right;
   const innerheight = height - margin.top - margin.bottom;
 
@@ -44,8 +44,10 @@ innerChart.call(tooltip);
 // Data loading
 // --------------------------------------
 
+
+d3.json("data/Account_takeover_prevention_banking.json").then(json => {
 // d3.json("data/Age_Estimation.json").then(json => {
- d3.json("data/Chargeback_Management.json").then(json => {
+// d3.json("data/Chargeback_Management.json").then(json => {
 // d3.json("data/Chargeback_Fraud.json").then(json => {
 
   const data = [];
@@ -107,7 +109,7 @@ innerChart.call(tooltip);
   const x = d3.scalePoint(IDs, [0, innerwidth]);
   const c = d3.scaleOrdinal(Requirement, ["#51A5F2", "#B1B561", "#F2A0D5", "#4CCAD0", "#AB89DB"]);
   const y = d3.scalePoint(Products, [0, innerheight]);
-  const r = d3.scaleSqrt([0, 2, 3, 4], [0, 0, 2, 7]);
+  const r = d3.scaleSqrt([0, 2, 3, 4], [0, 0, 3.5, 7]);
   const o = d3.scaleLinear([0, 2, 3, 4], [0, 1, 1, 1]);
 
   // --------------------------------------

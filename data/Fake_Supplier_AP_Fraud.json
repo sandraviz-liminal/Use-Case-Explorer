@@ -1,0 +1,533 @@
+{
+  "productUseCaseName": "Fake Supplier and AP Fraud",
+  "productRequirements": [
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coupa AI Total Spend Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tipalti Detect",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alii Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ibana Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Aavenir Accounts Payable Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Logic Pursuits Supplier Fraud Analyzer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Procurify Procure-to-Pay Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Sales and Commission Data Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coupa AI Total Spend Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tipalti Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alii Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ibana Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aavenir Accounts Payable Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Logic Pursuits Supplier Fraud Analyzer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Procurify Procure-to-Pay Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evaluate Internal Sales Data for Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 3,
+          "name": "Invoice Matching",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coupa AI Total Spend Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tipalti Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alii Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ibana Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aavenir Accounts Payable Automation",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Logic Pursuits Supplier Fraud Analyzer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Procurify Procure-to-Pay Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Sales and Commission Data Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coupa AI Total Spend Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tipalti Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alii Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ibana Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aavenir Accounts Payable Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Logic Pursuits Supplier Fraud Analyzer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Procurify Procure-to-Pay Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Employee User Roles and Permissions",
+      "productCapabilities": [
+        {
+          "id": 5,
+          "name": "Workforce Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coupa AI Total Spend Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tipalti Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alii Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ibana Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aavenir Accounts Payable Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Logic Pursuits Supplier Fraud Analyzer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Procurify Procure-to-Pay Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Business Identification (KYB)",
+      "productCapabilities": [
+        {
+          "id": 6,
+          "name": "Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coupa AI Total Spend Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tipalti Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alii Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ibana Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aavenir Accounts Payable Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Logic Pursuits Supplier Fraud Analyzer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Procurify Procure-to-Pay Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Ultimate Beneficial Ownership (UBO) Identification",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coupa AI Total Spend Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tipalti Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alii Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ibana Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 3
+            },
+            {
+              "name": "Aavenir Accounts Payable Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Logic Pursuits Supplier Fraud Analyzer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Procurify Procure-to-Pay Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Non-Government Legal Entity Identifier Verification",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Coupa AI Total Spend Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tipalti Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alii Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ibana Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aavenir Accounts Payable Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Logic Pursuits Supplier Fraud Analyzer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Procurify Procure-to-Pay Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Safeguard Customer Data & PII",
+      "productCapabilities": []
+    }
+  ]
+}

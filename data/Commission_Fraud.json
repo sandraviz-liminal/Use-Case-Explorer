@@ -1,0 +1,345 @@
+{
+  "productUseCaseName": "Commission Fraud",
+  "productRequirements": [
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Unified Customer View Creation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 3,
+          "name": "Sales and Commission Data Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 5,
+          "name": "Unified Customer View Creation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Sales and Commission Audit Trail Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enrich Transaction Data with Additional Context",
+      "productCapabilities": [
+        {
+          "id": 7,
+          "name": "Sales and Commission Data Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Unified Customer View Creation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evaluate Internal Sales Data for Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 9,
+          "name": "Sales and Commission Data Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Employee User Roles and Permissions",
+      "productCapabilities": [
+        {
+          "id": 10,
+          "name": "Identity Lifecycle Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "hCaptcha Widget",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Callingly Lead Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xintec iGenuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Safebooks AI Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

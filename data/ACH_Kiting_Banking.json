@@ -1,0 +1,77 @@
+{
+  "productUseCaseName": "ACH Kiting for Banking",
+  "productRequirements": [
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": []
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Customer Risk Profiling",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enrich Transaction Data with Additional Context",
+      "productCapabilities": [
+        {
+          "id": 2,
+          "name": "Customer Risk Profiling",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate a Dynamic User Risk Score",
+      "productCapabilities": []
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 3,
+          "name": "ACH Transaction Alert and Case Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Customer Due Diligence (CDD)",
+      "productCapabilities": []
+    }
+  ]
+}
