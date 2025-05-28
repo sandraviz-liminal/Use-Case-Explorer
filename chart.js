@@ -3,8 +3,8 @@
   // --------------------------------------
 
   const margin = { top: 300, right: 200, bottom: 30, left: 350 };
-  const width = 1500;
-  const height = 1800;
+  const width = 2000;
+  const height = 3500;
   const innerwidth = width - margin.left - margin.right;
   const innerheight = height - margin.top - margin.bottom;
 
@@ -45,45 +45,52 @@ innerChart.call(tooltip);
 // --------------------------------------
 
 // d3.json("data/Age_Estimation.json").then(json => {
-d3.json("data/Chargeback_Management.json").then(json => {
+ d3.json("data/Chargeback_Management.json").then(json => {
 // d3.json("data/Chargeback_Fraud.json").then(json => {
+
   const data = [];
-  const headerMap = new Map();
+  const header = [];
+
+  const seenRequirements = new Set();
 
   json.productRequirements.forEach(req => {
     const requirementName = req.name;
+    let isFirstRequirement = !seenRequirements.has(requirementName);
 
     req.productCapabilities.forEach(cap => {
       const capabilityId = `Cap${cap.id}`;
       const capabilityName = cap.name;
       const importance = cap.importance;
 
-      headerMap.set(capabilityId, {
-        ID: capabilityId,
-        Requirement: requirementName,
-        Capability: capabilityName,
-        Requirement2: requirementName,
-        Requirement3: capabilityId,
-        Importance: importance
-      });
-
+      // Add to data array
       cap.products.forEach(product => {
         data.push({
           products: product.name,
           Requirement: requirementName,
           Capability: capabilityName,
           ID: capabilityId,
-          Requirement2: requirementName,
-          Requirement3: capabilityId,
+          Requirement2: "",       
+          Requirement3: "",         
           Importance: importance,
           values: product.importanceValue,
-          sum: product.importanceValue // used for sorting
+          sum: product.importanceValue
         });
       });
+
+      // Add to header array with conditional Requirement2 and Requirement3
+      header.push({
+        ID: capabilityId,
+        Requirement: requirementName,
+        Capability: capabilityName,
+        Requirement2: isFirstRequirement ? requirementName : "",
+        Requirement3: isFirstRequirement ? capabilityId : "",
+        Importance: importance
+      });
+
+      seenRequirements.add(requirementName);
+      isFirstRequirement = false;
     });
   });
-
-  const header = Array.from(headerMap.values());
 
   console.log("Header:", header);
   console.log("Data:", data);
@@ -130,7 +137,6 @@ d3.json("data/Chargeback_Management.json").then(json => {
     .select(".domain")
     .remove();
 
-
   // Interactivity: highlighting
 
   innerChart.selectAll(".y-axis text")
@@ -149,16 +155,16 @@ d3.json("data/Chargeback_Management.json").then(json => {
 // Drawing header 
 // --------------------------------------
 
-const labelY = -85, labelSpacing = 30.8, labelAngle = -50;
+const labelY = -85, labelAngle = -50;
 
   innerChart.selectAll("text.text1")
-    .data(Capabilities)
-    .join("text")
-    .attr("class", "text1")
-    .attr("x", (_, i) => i * labelSpacing)
-    .attr("y", labelY)
-    .attr("transform", (_, i) => `rotate(${labelAngle}, ${i * labelSpacing}, ${labelY})`)
-    .text(d => d);
+  .data(header)
+  .join("text")
+  .attr("class", "text1")
+  .attr("x", d => x(d.ID))
+  .attr("y", labelY)
+  .attr("transform", d => `rotate(${labelAngle}, ${x(d.ID)}, ${labelY})`)
+  .text(d => d.Capability);
 
   innerChart
     .selectAll("text.text2")
