@@ -5,8 +5,6 @@
   const margin = { top: 300, right: 200, bottom: 30, left: 350 };
   const width = 2000;
   const height = 6000;
-  const innerwidth = width - margin.left - margin.right;
-  const innerheight = height - margin.top - margin.bottom;
 
   const svg = d3
     .select("#chart")
@@ -44,17 +42,35 @@ innerChart.call(tooltip);
 // Data loading
 // --------------------------------------
 
-
-d3.json("data/Account_takeover_prevention_banking.json").then(json => {
-// d3.json("data/Age_Estimation.json").then(json => {
-// d3.json("data/Chargeback_Management.json").then(json => {
-// d3.json("data/Chargeback_Fraud.json").then(json => {
+//d3.json("data/Account_takeover_prevention_banking.json").then(json => {
+//d3.json("data/ACH_Kiting_Banking.json").then(json => {
+//d3.json("data/Age_Estimation.json").then(json => {
+//d3.json("data/Age_Verification_eCommerce.json").then(json => {
+//d3.json("data/Chargeback_Fraud_eCommerce.json").then(json => {
+//d3.json("data/Chargeback_Management.json").then(json => {
+//d3.json("data/Commission_Fraud.json").then(json => {
+//d3.json("data/Embezzlement_eCommerce.json").then(json => {
+//d3.json("data/Fake_Supplier_Fraud.json").then(json => {
+//d3.json("data/Ghost_Employee.json").then(json => {
+//d3.json("data/KYC_Banking.json").then(json => {
+d3.json("data/Sanctions_Screening_Banking.json").then(json => {
 
   const data = [];
   const header = [];
-
   const seenRequirements = new Set();
+  const productImportanceMap = new Map();
 
+  // Step 1: Compute total importance per product
+  json.productRequirements.forEach(req => {
+    req.productCapabilities.forEach(cap => {
+      cap.products.forEach(product => {
+        const current = productImportanceMap.get(product.name) || 0;
+        productImportanceMap.set(product.name, current + product.importanceValue);
+      });
+    });
+  });
+
+  // Step 2: Flatten into data + header arrays
   json.productRequirements.forEach(req => {
     const requirementName = req.name;
     let isFirstRequirement = !seenRequirements.has(requirementName);
@@ -64,28 +80,27 @@ d3.json("data/Account_takeover_prevention_banking.json").then(json => {
       const capabilityName = cap.name;
       const importance = cap.importance;
 
-      // Add to data array
       cap.products.forEach(product => {
         data.push({
           products: product.name,
           Requirement: requirementName,
           Capability: capabilityName,
           ID: capabilityId,
-          Requirement2: "",       
-          Requirement3: "",         
+          Requirement2: "", 
+          Requirement3: "", 
           Importance: importance,
           values: product.importanceValue,
-          sum: product.importanceValue
+          sum: productImportanceMap.get(product.name)
         });
       });
 
-      // Add to header array with conditional Requirement2 and Requirement3
       header.push({
         ID: capabilityId,
         Requirement: requirementName,
         Capability: capabilityName,
         Requirement2: isFirstRequirement ? requirementName : "",
         Requirement3: isFirstRequirement ? capabilityId : "",
+        firstCapabilityID: isFirstRequirement ? capabilityId : "",
         Importance: importance
       });
 
@@ -94,22 +109,31 @@ d3.json("data/Account_takeover_prevention_banking.json").then(json => {
     });
   });
 
-  console.log("Header:", header);
-  console.log("Data:", data);
+  //console.log("Header:", header);
+  //console.log("Data:", data);
 
   // --------------------------------------
   // Scales
   // --------------------------------------
 
-  const IDs = [...new Set(data.flatMap((d) => d.ID))]; 
-  const Requirement = [...new Set(data.flatMap((d) => d.Requirement))];
-  const Products = [...new Set(data.flatMap((d) => d.products).sort((d) => d.sum))];
-  const Capabilities = header.map((d) => d.Capability)
+  const colSpacing = 28;
+  const idOrder = [...new Set(data.map(d => d.ID))];
+  const x = d3.scaleOrdinal()
+   .domain(idOrder)
+   .range(idOrder.map((_, i) => i * colSpacing));
 
-  const x = d3.scalePoint(IDs, [0, innerwidth]);
-  const c = d3.scaleOrdinal(Requirement, ["#51A5F2", "#B1B561", "#F2A0D5", "#4CCAD0", "#AB89DB"]);
-  const y = d3.scalePoint(Products, [0, innerheight]);
-  const r = d3.scaleSqrt([0, 2, 3, 4], [0, 0, 3.5, 7]);
+  const rowSpacing = 20.4;
+  const productOrder = [...new Set(data.map(d => d.products))]
+   .sort((a, b) => productImportanceMap.get(b) - productImportanceMap.get(a));
+  const y = d3.scaleOrdinal()
+    .domain(productOrder)
+    .range(productOrder.map((_, i) => i * rowSpacing));
+
+  const Requirement = [...new Set(data.flatMap((d) => d.Requirement))];
+  const c = d3.scaleOrdinal(Requirement, ["#51A5F2", "#B1B561", "#F2A0D5", "#4CCAD0", "#AB89DB", "#B78BA9", 
+    "#6ABCE5", "#66BFA1", "#C28FFD", "#F2A16E", "#AD9580", "#5E76DD"]);
+
+  const r = d3.scaleSqrt([0, 2, 3, 4], [0, 0, 2.7, 7]);
   const o = d3.scaleLinear([0, 2, 3, 4], [0, 1, 1, 1]);
 
   // --------------------------------------
@@ -139,8 +163,6 @@ d3.json("data/Account_takeover_prevention_banking.json").then(json => {
     .select(".domain")
     .remove();
 
-  // Interactivity: highlighting
-
   innerChart.selectAll(".y-axis text")
     .style("cursor", "pointer")
     .on("mouseover", function(event, product) {
@@ -160,34 +182,34 @@ d3.json("data/Account_takeover_prevention_banking.json").then(json => {
 const labelY = -85, labelAngle = -50;
 
   innerChart.selectAll("text.text1")
-  .data(header)
-  .join("text")
-  .attr("class", "text1")
-  .attr("x", d => x(d.ID))
-  .attr("y", labelY)
-  .attr("transform", d => `rotate(${labelAngle}, ${x(d.ID)}, ${labelY})`)
-  .text(d => d.Capability);
-
-  innerChart
-    .selectAll("text.text2")
     .data(header)
     .join("text")
-    .attr("class", "text2")
-    .attr("x", (d) => x(d.Requirement3) -10)
-    .attr("y", -30)
-    .attr("fill", (d) => c(d.Requirement))
-    .text((d) => d.Requirement2);
+    .attr("class", "text1")
+    .attr("x", d => x(d.ID))
+    .attr("y", labelY)
+    .attr("transform", d => `rotate(${labelAngle}, ${x(d.ID)}, ${labelY})`)
+    .text(d => d.Capability);
 
-  innerChart
-    .selectAll("line.line")
-    .data(header)
-    .join("line")
-    .attr("class", "line")
-    .attr("x1", (d) => x(d.Requirement3) - 10)
-    .attr("x2", (d) => x(d.Requirement3) + 60)
-    .attr("y1", -50)
-    .attr("y2", -50)
-    .attr("stroke", (d) => c(d.Requirement));
+  // innerChart
+  //   .selectAll("text.text2")
+  //   .data(header.filter(d => d.Requirement2 !== ""))
+  //   .join("text")
+  //   .attr("class", "text2")
+  //   .attr("x", (d) => x(d.firstCapabilityID) -10) 
+  //   .attr("y", -30)
+  //   .attr("fill", (d) => c(d.Requirement))
+  //   .text((d) => d.Requirement2);
+
+  // innerChart
+  //   .selectAll("line.line")
+  //   .data(header.filter(d => d.Requirement2 !== ""))
+  //   .join("line")
+  //   .attr("class", "line")
+  //   .attr("x1", (d) => x(d.firstCapabilityID) - 10)
+  //   .attr("x2", (d) => x(d.firstCapabilityID) + 10)
+  //   .attr("y1", -50)
+  //   .attr("y2", -50)
+  //   .attr("stroke", (d) => c(d.Requirement));
 
   innerChart
     .selectAll("circle.circle1")
@@ -198,7 +220,7 @@ const labelY = -85, labelAngle = -50;
     .attr("cy", -70)
     .attr("r", (d) => r(d.Importance))
     .attr("fill", (d) => c(d.Requirement))
-    .attr("opacity", (d) => o(d.Importance));
+    .attr("fill-opacity", (d) => o(d.Importance));
 
   innerChart
     .selectAll("circle2")
@@ -209,33 +231,29 @@ const labelY = -85, labelAngle = -50;
     .attr("cy", -70)
     .attr("r", 7)
     .attr("stroke", (d) => c(d.Requirement))
-    .attr("stroke-width", 1.4)
+    .attr("stroke-width", 1.2)
     .attr("fill", "none");
 
 // --------------------------------------
 // Drawing matrix 
 // --------------------------------------
 
-const sortedData = data.slice().sort((a, b) => a.sum - b.sum);
-
-// All background circles 
-
   innerChart
     .selectAll("circle.circle3")
-    .data(sortedData)
+    .data(data)
     .attr("class", "circle3")
     .join("circle")
     .attr("cx", (d) => x(d.ID))
     .attr("cy", (d) => y(d.products))
     .attr("r", 7)
     .attr("stroke", "#F9F4F2")
-    .attr("stroke-width", 1.4)
+    .attr("stroke-width", 1.2)
     .attr("fill", "#F9F4F2")
-    .attr("opacity", 0.8);
+    .attr("opacity", 0.5);
 
   innerChart
     .selectAll("circle.circle4")
-    .data(sortedData)
+    .data(data)
     .attr("class", "circle4")
     .join("circle")
     .attr("cx", (d) => x(d.ID))
@@ -249,14 +267,14 @@ const sortedData = data.slice().sort((a, b) => a.sum - b.sum);
 
   innerChart
     .selectAll("circle.circle5")
-    .data(sortedData)
+    .data(data)
     .attr("class", "circle5")
     .join("circle")
     .attr("cx", (d) => x(d.ID))
     .attr("cy", (d) => y(d.products))
     .attr("r", 7)
     .attr("stroke", (d) => c(d.Requirement))
-    .attr("stroke-width", 1.4)
+    .attr("stroke-width", 1.2)
     .attr("fill", "none")
     .attr("opacity", (d) => o(d.values))
     .attr("data-product", d => d.products)
