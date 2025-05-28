@@ -40,12 +40,13 @@ const tooltip = d3.tip()
 
 innerChart.call(tooltip);
 
-  // --------------------------------------
-  // Data loading
-  // --------------------------------------
+// --------------------------------------
+// Data loading
+// --------------------------------------
 
-
-d3.json("Age_Estimation.json").then(json => {
+// d3.json("Age_Estimation.json").then(json => {
+d3.json("Chargeback_Management.json").then(json => {
+// d3.json("Chargeback_Fraud.json").then(json => {
   const data = [];
   const headerMap = new Map();
 
@@ -87,7 +88,7 @@ d3.json("Age_Estimation.json").then(json => {
   console.log("Header:", header);
   console.log("Data:", data);
 
-    // --------------------------------------
+  // --------------------------------------
   // Scales
   // --------------------------------------
 
@@ -102,9 +103,9 @@ d3.json("Age_Estimation.json").then(json => {
   const r = d3.scaleSqrt([0, 2, 3, 4], [0, 0, 2, 7]);
   const o = d3.scaleLinear([0, 2, 3, 4], [0, 1, 1, 1]);
 
-// --------------------------------------
-//  Axes
-// --------------------------------------
+  // --------------------------------------
+  // Axes
+  // --------------------------------------
 
   innerChart
     .append("g")
@@ -129,17 +130,20 @@ d3.json("Age_Estimation.json").then(json => {
     .select(".domain")
     .remove();
 
-    innerChart.selectAll(".y-axis text")
-.style("cursor", "pointer")
-.on("mouseover", function(event, product) {
-  d3.selectAll("circle")
-    .style("opacity", function() {
-      return d3.select(this).attr("data-product") === product ? 1 : 0.2;
+
+  // Interactivity: highlighting
+
+  innerChart.selectAll(".y-axis text")
+    .style("cursor", "pointer")
+    .on("mouseover", function(event, product) {
+      d3.selectAll("circle")
+        .style("opacity", function() {
+          return d3.select(this).attr("data-product") === product ? 1 : 0.2;
+        });
+    })
+    .on("mouseout", function() {
+      d3.selectAll("circle").style("opacity", null); 
     });
-})
-.on("mouseout", function() {
-  d3.selectAll("circle").style("opacity", null); // or your original default
-});
 
 // --------------------------------------
 // Drawing header 
@@ -206,7 +210,8 @@ const labelY = -85, labelSpacing = 30.8, labelAngle = -50;
 
 const sortedData = data.slice().sort((a, b) => a.sum - b.sum);
 
-//All background circles do not have a tooltip 
+// All background circles 
+
   innerChart
     .selectAll("circle.circle3")
     .data(sortedData)
