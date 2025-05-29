@@ -1,0 +1,621 @@
+{
+  "productUseCaseName": "Market Manipulation and Insider Trading for Banking",
+  "productRequirements": [
+    {
+      "name": "Analyze Suspicious Trading Activity",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Trade Surveillance",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Dow Jones RiskCenter Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Anti-Financial Crime Solutions for Cryptocurrency ",
+              "importanceValue": 0
+            },
+            {
+              "name": "SteelEye Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Know Your Transactions (KYT)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "eFlow PATH Ecosystem",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Global Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Limits Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Cockpit",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTS Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTR Transaction Reporting",
+              "importanceValue": 0
+            },
+            {
+              "name": "TradingHub Financial Analytics Platform",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 2,
+          "name": "Trade Surveillance",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Dow Jones RiskCenter Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Anti-Financial Crime Solutions for Cryptocurrency ",
+              "importanceValue": 0
+            },
+            {
+              "name": "SteelEye Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Know Your Transactions (KYT)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "eFlow PATH Ecosystem",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Global Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Limits Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Cockpit",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTS Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTR Transaction Reporting",
+              "importanceValue": 0
+            },
+            {
+              "name": "TradingHub Financial Analytics Platform",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 3,
+          "name": "Trade Surveillance Audit Trail Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Dow Jones RiskCenter Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Anti-Financial Crime Solutions for Cryptocurrency ",
+              "importanceValue": 0
+            },
+            {
+              "name": "SteelEye Data Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Transactions (KYT)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow PATH Ecosystem",
+              "importanceValue": 4
+            },
+            {
+              "name": "KRM22 Global Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Limits Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Cockpit",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTS Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTR Transaction Reporting",
+              "importanceValue": 4
+            },
+            {
+              "name": "TradingHub Financial Analytics Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate a Dynamic User Risk Score",
+      "productCapabilities": [
+        {
+          "id": 4,
+          "name": "Trade Surveillance",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Dow Jones RiskCenter Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Anti-Financial Crime Solutions for Cryptocurrency ",
+              "importanceValue": 0
+            },
+            {
+              "name": "SteelEye Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Know Your Transactions (KYT)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "eFlow PATH Ecosystem",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Global Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Limits Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Cockpit",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTS Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTR Transaction Reporting",
+              "importanceValue": 0
+            },
+            {
+              "name": "TradingHub Financial Analytics Platform",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Integrate and Secure Data from Internal and External Systems",
+      "productCapabilities": [
+        {
+          "id": 5,
+          "name": "Trade Surveillance Data Integration",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Dow Jones RiskCenter Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nasdaq Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Anti-Financial Crime Solutions for Cryptocurrency ",
+              "importanceValue": 0
+            },
+            {
+              "name": "SteelEye Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Transactions (KYT)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow PATH Ecosystem",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Global Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Limits Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Cockpit",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTS Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTR Transaction Reporting",
+              "importanceValue": 0
+            },
+            {
+              "name": "TradingHub Financial Analytics Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 6,
+          "name": "Trade Surveillance Alert and Case Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Dow Jones RiskCenter Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Anti-Financial Crime Solutions for Cryptocurrency ",
+              "importanceValue": 0
+            },
+            {
+              "name": "SteelEye Data Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Transactions (KYT)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "eFlow PATH Ecosystem",
+              "importanceValue": 4
+            },
+            {
+              "name": "KRM22 Global Risk Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KRM22 Market Surveillance",
+              "importanceValue": 4
+            },
+            {
+              "name": "KRM22 Limits Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "KRM22 Risk Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "KRM22 Risk Cockpit",
+              "importanceValue": 4
+            },
+            {
+              "name": "eFlow TZTS Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTR Transaction Reporting",
+              "importanceValue": 0
+            },
+            {
+              "name": "TradingHub Financial Analytics Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tune Models for Accuracy and Performance",
+      "productCapabilities": [
+        {
+          "id": 7,
+          "name": "Trade Surveillance Model Optimization",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Dow Jones RiskCenter Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Market Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Anti-Financial Crime Solutions for Cryptocurrency ",
+              "importanceValue": 0
+            },
+            {
+              "name": "SteelEye Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Transactions (KYT)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow PATH Ecosystem",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Global Risk Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KRM22 Market Surveillance",
+              "importanceValue": 4
+            },
+            {
+              "name": "KRM22 Limits Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "KRM22 Risk Cockpit",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTS Trade Surveillance",
+              "importanceValue": 0
+            },
+            {
+              "name": "eFlow TZTR Transaction Reporting",
+              "importanceValue": 0
+            },
+            {
+              "name": "TradingHub Financial Analytics Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1863 @@
+{
+  "productUseCaseName": "Unauthorized Wire to Crypto for Banking",
+  "productRequirements": [
+    {
+      "name": "Trigger Dynamic Authentication Based on User Risk",
+      "productCapabilities": [
+        {
+          "id": 20,
+          "name": "Social Engineering and Scam Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "App-based Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Name Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Passwordless Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Continuous Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 4
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Adaptive Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 7,
+          "name": "ACH Transaction Alert and Case Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 4
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "App-based Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Continuous Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Passwordless Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Customer Enhanced Due Diligence (EDD)",
+      "productCapabilities": [
+        {
+          "id": 33,
+          "name": "Name Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "Passwordless Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "App-based Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "name": "Negative News / Adverse Media Monitoring",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Bot Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 4
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Cross-device Identity Graphing",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 17,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 4
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "ACH Transaction Alert and Case Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Fraud Alert Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Chainalysis Crypto Investigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Scorechain Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cellbunq Crypto Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sekuritance Crypto Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Beosin Cryptocurrency Tracing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Scorechain Crypto Wallet and Transaction Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData Crypto Risk Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "FailSafe Protocol",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

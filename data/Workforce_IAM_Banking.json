@@ -1,0 +1,1596 @@
+{
+  "productUseCaseName": "Workforce IAM for Banking",
+  "productRequirements": [
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 8,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Role Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Access Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 4
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Single Sign-On (SSO)",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 3
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 3
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Passwordless Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Adaptive Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 3
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 3
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Biometric Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 2
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 2
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Identity Protocol Interoperability",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 2
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trigger Dynamic Authentication Based on User Risk",
+      "productCapabilities": [
+        {
+          "id": 18,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Passwordless Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Adaptive Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 3
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Privileged Employee User Roles and Permissions",
+      "productCapabilities": [
+        {
+          "id": 29,
+          "name": "Privileged Access Escalation Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Endpoint Privilege Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Privileged Session Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "Privileged Account Governance",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Privileged Account Access Control",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Employee User Roles and Permissions",
+      "productCapabilities": [
+        {
+          "id": 4,
+          "name": "Role Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Identity Lifecycle Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Governance Policy Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Workforce Universal Directory",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 2
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 2
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 2
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Create a Centralized Directory of Employee Identities",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Access Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 4
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Workforce Identity Self-Service Capabilities",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Workforce Universal Directory",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 2
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 2
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 2
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Employee Identity Lifecycle",
+      "productCapabilities": [
+        {
+          "id": 23,
+          "name": "Entitlements Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Access Controls Provisioning And De-provisioning",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Workforce Identity Self-Service Capabilities",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enable Identity Self Service Capabilities",
+      "productCapabilities": [
+        {
+          "id": 27,
+          "name": "Workforce Identity Self-Service Capabilities",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Account Recovery",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 26,
+          "name": "Data Governance Audit Trail",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ubisecure Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneLogin Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Workforce Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "miniOrange Workforce Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Cognito",
+              "importanceValue": 0
+            },
+            {
+              "name": "ManageEngine Identity and Access Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberArk Identity Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Security Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "ITSENSE CoreOne Identity Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

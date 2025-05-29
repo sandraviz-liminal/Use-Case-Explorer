@@ -1,0 +1,799 @@
+{
+  "productUseCaseName": "Call Center Authentication for Banking",
+  "productRequirements": [
+    {
+      "name": "Trigger Dynamic Authentication Based on User Risk",
+      "productCapabilities": [
+        {
+          "id": 15,
+          "name": "Social Engineering and Scam Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "App-based Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Adaptive Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Fraud Monitoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 3
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Name Verification",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Government Identification Number Verification",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Document Verification",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Mobile Carrier API Access",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Biometric Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "App-based Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Adaptive Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Customer Identity Self-Service Capabilities",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Mobile Carrier API Access",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Document Verification",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Single Sign-On (SSO)",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 30,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "Customer Risk Profiling",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Unified Customer View Creation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "Fraud Monitoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 3
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "Cross-device Identity Graphing",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "Identity Resolution",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "name": "Mobile Carrier API Access",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "Device Health Status Detection",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "Audience Segmentation",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "DeepFake Detection",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enable a Unified Customer Identity (360 View)",
+      "productCapabilities": [
+        {
+          "id": 45,
+          "name": "Unified Customer View Creation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 46,
+          "name": "Data Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 47,
+          "name": "Customer Data Onboarding",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "Data Enrichment",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "name": "Mobile Carrier API Access",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "name": "Customer Data Collection & Integration",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "name": "Customer Data Linking",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enable Identity Self Service Capabilities",
+      "productCapabilities": [
+        {
+          "id": 43,
+          "name": "Account Recovery",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "Customer Identity Self-Service Capabilities",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Authen2cate Mobile",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arkose Labs Device ID",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recover User Account Access",
+      "productCapabilities": []
+    }
+  ]
+}

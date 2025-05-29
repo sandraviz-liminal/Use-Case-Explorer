@@ -1,0 +1,5640 @@
+{
+  "productUseCaseName": "Regulatory Risk Management for Banking",
+  "productRequirements": [
+    {
+      "name": "Perform Vendor Due Diligence",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Ultimate Beneficial Ownership (UBO) Identification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Negative News / Adverse Media Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 4
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Third-party Relationship Mapping",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Third-party Audit Trail Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 3
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 3
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 3
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Document Workflow Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 3
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 3
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 3
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 3
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 3
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 3
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Remediate Identified Vendor Risk",
+      "productCapabilities": [
+        {
+          "id": 9,
+          "name": "Risk Remediation Workflow Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 4
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 4
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 4
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 4
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "SLA Tracking and Monitoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 3
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 3
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 3
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 3
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Document Retention & Compliance",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Third-party Alert and Case Management",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maintain an Incident Response Plan",
+      "productCapabilities": [
+        {
+          "id": 13,
+          "name": "Third-party Incident Detection and Response",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 4
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Risk Remediation Workflow Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 4
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 4
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 4
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 4
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "SLA Tracking and Monitoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 3
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 3
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 3
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 3
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Third-party Alert and Case Management",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Business Identification (KYB)",
+      "productCapabilities": [
+        {
+          "id": 17,
+          "name": "Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Ultimate Beneficial Ownership (UBO) Identification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Non-Government Legal Entity Identifier Verification",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quantify Vendor Compliance Risk",
+      "productCapabilities": [
+        {
+          "id": 6,
+          "name": "Financial Impact Analysis",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 4
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 4
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Third-Party Risk Assessment",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 4
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 4
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 4
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 4
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 4
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 4
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 4
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 4
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 4
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 4
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 4
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 4
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monitor Ongoing Compliance Risk",
+      "productCapabilities": [
+        {
+          "id": 8,
+          "name": "Key Risk Indicator (KRI) Management",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Black Kite Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthBridge WorkAttest ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hyperproof Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Trust Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FNZ IDV & KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Compliance & Third-party risk management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Themis Search and Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Third Party",
+              "importanceValue": 0
+            },
+            {
+              "name": "Exiger 1Exiger Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML RightSource Third-Party Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chaindots Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Certa Third Party OS",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aravo Intelligence First Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "UpGuard Vendor Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Diligent One Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BitSight Digital Supply Chain",
+              "importanceValue": 0
+            },
+            {
+              "name": "apexanalytix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder TPRM Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Venminder Vendiligence",
+              "importanceValue": 0
+            },
+            {
+              "name": " MetricStream BusinessGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "MetricStream CyberGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protecht Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": " SAI360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech Continuity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitratech VendorInsight",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neotas Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SureCloud GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "NAVEX One ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ncontracts Nvendor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varutra Audit and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Archer Third Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantivate Procurement Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " DVV Solutions TPRM Automation and Risk Ratings",
+              "importanceValue": 0
+            },
+            {
+              "name": " LogicManager Third-Party Risk Management Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Empowered Systems Connected Risk",
+              "importanceValue": 2
+            },
+            {
+              "name": "ClearTax Supply Chain Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyber Sierra Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalSuite Solutions Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomas Murray Orbit Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kodiak Hub End-to-End Supplier Relationship Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Falcon Wise Genesis Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Third-Party Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Third-Party Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskWatch Risk and Compliance Assessment Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MEGA International HOPEX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xternal REPSE and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Brooklyn Solutions Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BenchMatrix Governance, Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "RISKGRID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Next Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cynomi vCISO Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "C&F AdaptiveGRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acuity Risk Management STREAM",
+              "importanceValue": 0
+            },
+            {
+              "name": "Interos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Craft Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Carbide Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "vCIOToolbox Cybrance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compyl InfoSec and Compliance Automation Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Koop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC.ME Know-Your-Supplier ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

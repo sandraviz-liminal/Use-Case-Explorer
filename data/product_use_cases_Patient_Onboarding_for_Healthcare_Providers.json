@@ -1,0 +1,6061 @@
+{
+  "productUseCaseName": "Patient Onboarding for Healthcare Providers",
+  "productRequirements": [
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 17,
+          "name": "Biometric Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 4
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Customer Identity Self-Service Capabilities",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Access Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 4
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Single Sign-On (SSO)",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 3
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Location Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 3
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 3
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Role Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Adaptive Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 3
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Customer Authentication Orchestration",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Customer Universal Directory",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 2
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Passive Liveness Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Active Liveness Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Location Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 3
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Synthetic Identity Fraud Risk Scoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Identity Resolution",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Unified Customer View Creation",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 2
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Data Breach Monitoring",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform User Identity Verification",
+      "productCapabilities": [
+        {
+          "id": 10,
+          "name": "Active Liveness Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Passive Liveness Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Physical Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 4
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 4
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Identity Verification Orchestration",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Name Verification",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 3
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate a Dynamic User Risk Score",
+      "productCapabilities": [
+        {
+          "id": 32,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 4
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "Synthetic Identity Fraud Risk Scoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "Location Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 3
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "Unified Customer View Creation",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 2
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Customer Accounts, Profiles, and Permissions",
+      "productCapabilities": [
+        {
+          "id": 39,
+          "name": "Access Controls Provisioning And De-provisioning",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "Access Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "Customer Universal Directory",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Mitek Biometric Authentication (MiPass)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriff Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Verifications",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verifai Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Pre-Fill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Access Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CLEAR Verified",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keyo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTOS Identity Verification Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Autenticar TuID Vida",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "UltraPass Identity Ultra Pass ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Terminal 3 T3 Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Know Your Customer (KYC)",
+              "importanceValue": 2
+            },
+            {
+              "name": "Microblink Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Panini ID4Life",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MIniAILive Face Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "ShareFile Secure Document Workflow & Document Sharing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "TuID App",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collect and Manage User Consent",
+      "productCapabilities": []
+    }
+  ]
+}

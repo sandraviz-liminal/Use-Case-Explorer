@@ -1,0 +1,1354 @@
+{
+  "productUseCaseName": "Dark Web Monitoring in Banking",
+  "productRequirements": [
+    {
+      "name": "Maintain a Cybersecurity Incident Response Plan",
+      "productCapabilities": [
+        {
+          "id": 2,
+          "name": "Cybersecurity Event Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "EverSafe Detection and Alert System",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Enterprise Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Consumer Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZeroFox Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDIQ IdentityIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "AllState Identity Protection Personal",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Fraud & Scam Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Delinquency Reduction",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDStrong Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Allure Security Online Brand Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ANOZR WAY Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TELUS Online Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight Cyber Cerberus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight DarkIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte ARIA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte BreachCheck",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDSeal ProTec",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdentityForce UltraSecure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyrus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Search API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Entity API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Darksonar API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Score API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Ransomware API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Datafeeds",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdentityGuard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LegalShield IDShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "PrivacyGuard Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dteckt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OmniWatch Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReliaQuote ReliaShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Vision UI ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlueVoyant Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlueVoyant Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "StealthMole Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "CFLW Cyber Strategies Dark Web Monitoring ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Adlumin Security Operations Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Techn22 Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACID Technologies Dark Web Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskpro Cyber Security Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secutec SecureSIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eyeon Group Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "EZShield Protection for Individuals",
+              "importanceValue": 0
+            },
+            {
+              "name": "EBRAND Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "DeXpose Unified Cyber Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alerts Bar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Personal Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Group Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Small Business Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Double Defend",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Dark-Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlackCloak Concierge Cybersecurity & Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybertonica FraudSuite360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybertonica FraudLock 360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eydle Scam Protection Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Cyber Threat & Vulnerability Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "EverSafe Detection and Alert System",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Enterprise Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Consumer Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZeroFox Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDIQ IdentityIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "AllState Identity Protection Personal",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Fraud & Scam Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Delinquency Reduction",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDStrong Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Allure Security Online Brand Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ANOZR WAY Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TELUS Online Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight Cyber Cerberus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight DarkIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte ARIA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte BreachCheck",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDSeal ProTec",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdentityForce UltraSecure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyrus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Search API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Entity API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Darksonar API",
+              "importanceValue": 4
+            },
+            {
+              "name": "DarkOwl Score API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Ransomware API",
+              "importanceValue": 4
+            },
+            {
+              "name": "DarkOwl Datafeeds",
+              "importanceValue": 4
+            },
+            {
+              "name": "IdentityGuard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LegalShield IDShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "PrivacyGuard Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dteckt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OmniWatch Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReliaQuote ReliaShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Vision UI ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlueVoyant Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "BlueVoyant Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "StealthMole Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "CFLW Cyber Strategies Dark Web Monitoring ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Adlumin Security Operations Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Techn22 Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACID Technologies Dark Web Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskpro Cyber Security Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secutec SecureSIGHT",
+              "importanceValue": 4
+            },
+            {
+              "name": "Eyeon Group Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "EZShield Protection for Individuals",
+              "importanceValue": 0
+            },
+            {
+              "name": "EBRAND Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "DeXpose Unified Cyber Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alerts Bar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Personal Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Group Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Small Business Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Double Defend",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Dark-Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlackCloak Concierge Cybersecurity & Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybertonica FraudSuite360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybertonica FraudLock 360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eydle Scam Protection Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Cybersecurity Incident Reporting",
+          "importance": 3,
+          "products": [
+            {
+              "name": "EverSafe Detection and Alert System",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Enterprise Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Consumer Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZeroFox Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDIQ IdentityIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "AllState Identity Protection Personal",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Fraud & Scam Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Delinquency Reduction",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDStrong Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Allure Security Online Brand Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ANOZR WAY Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TELUS Online Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight Cyber Cerberus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight DarkIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte ARIA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte BreachCheck",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDSeal ProTec",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdentityForce UltraSecure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyrus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Search API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Entity API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Darksonar API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Score API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Ransomware API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Datafeeds",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdentityGuard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LegalShield IDShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "PrivacyGuard Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dteckt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OmniWatch Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReliaQuote ReliaShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Vision UI ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlueVoyant Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlueVoyant Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "StealthMole Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "CFLW Cyber Strategies Dark Web Monitoring ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Adlumin Security Operations Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Techn22 Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACID Technologies Dark Web Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskpro Cyber Security Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secutec SecureSIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eyeon Group Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "EZShield Protection for Individuals",
+              "importanceValue": 0
+            },
+            {
+              "name": "EBRAND Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "DeXpose Unified Cyber Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alerts Bar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Personal Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Group Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Small Business Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Double Defend",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Dark-Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlackCloak Concierge Cybersecurity & Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybertonica FraudSuite360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybertonica FraudLock 360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eydle Scam Protection Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Cybersecurity Incident Response & Vulnerability Remediation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "EverSafe Detection and Alert System",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Enterprise Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Consumer Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZeroFox Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDIQ IdentityIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "AllState Identity Protection Personal",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Fraud & Scam Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Delinquency Reduction",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDStrong Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Allure Security Online Brand Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ANOZR WAY Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TELUS Online Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight Cyber Cerberus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight DarkIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte ARIA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte BreachCheck",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDSeal ProTec",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdentityForce UltraSecure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyrus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Search API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Entity API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Darksonar API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Score API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Ransomware API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Datafeeds",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdentityGuard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LegalShield IDShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "PrivacyGuard Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dteckt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OmniWatch Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReliaQuote ReliaShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Vision UI ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlueVoyant Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "BlueVoyant Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "StealthMole Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "CFLW Cyber Strategies Dark Web Monitoring ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Adlumin Security Operations Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Techn22 Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACID Technologies Dark Web Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskpro Cyber Security Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secutec SecureSIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eyeon Group Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "EZShield Protection for Individuals",
+              "importanceValue": 0
+            },
+            {
+              "name": "EBRAND Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "DeXpose Unified Cyber Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alerts Bar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "defend-id Personal Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Group Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Small Business Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Double Defend",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Dark-Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlackCloak Concierge Cybersecurity & Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybertonica FraudSuite360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybertonica FraudLock 360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eydle Scam Protection Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Data Discovery",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Data Management",
+          "importance": 2,
+          "products": [
+            {
+              "name": "EverSafe Detection and Alert System",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Enterprise Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpyCloud Consumer Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZeroFox Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDIQ IdentityIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "AllState Identity Protection Personal",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Fraud & Scam Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Delinquency Reduction",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDStrong Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Allure Security Online Brand Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ANOZR WAY Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TELUS Online Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight Cyber Cerberus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Searchlight DarkIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte ARIA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shadowbyte BreachCheck",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDSeal ProTec",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdentityForce UltraSecure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyrus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Search API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Entity API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Darksonar API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Score API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Ransomware API",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Datafeeds",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdentityGuard Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LegalShield IDShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "PrivacyGuard Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dteckt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OmniWatch Identity Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReliaQuote ReliaShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "DarkOwl Vision UI ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlueVoyant Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlueVoyant Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "StealthMole Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "CFLW Cyber Strategies Dark Web Monitoring ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Adlumin Security Operations Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Techn22 Dark Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACID Technologies Dark Web Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskpro Cyber Security Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secutec SecureSIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eyeon Group Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "EZShield Protection for Individuals",
+              "importanceValue": 0
+            },
+            {
+              "name": "EBRAND Digital Risk Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "DeXpose Unified Cyber Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alerts Bar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskXchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Personal Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Group Plans",
+              "importanceValue": 0
+            },
+            {
+              "name": "defend-id Small Business Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Double Defend",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID defend ID Dark-Web Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "BlackCloak Concierge Cybersecurity & Privacy Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Cybertonica FraudSuite360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybertonica FraudLock 360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eydle Scam Protection Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aggregate Threat Data",
+      "productCapabilities": []
+    }
+  ]
+}

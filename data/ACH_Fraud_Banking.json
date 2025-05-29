@@ -1,0 +1,4476 @@
+{
+  "productUseCaseName": "ACH Fraud for Banking",
+  "productRequirements": [
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Biometric Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Adaptive Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 3
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trigger Dynamic Authentication Based on User Risk",
+      "productCapabilities": [
+        {
+          "id": 14,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 4
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 4
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 4
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 4
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 4
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 3
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Adaptive Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 8,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 4
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 4
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 4
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 4
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 4
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Biometric Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 3
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 21,
+          "name": "Bot Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 4
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 4
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 4
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 4
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 4
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Unified Customer View Creation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 3
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enrich Transaction Data with Additional Context",
+      "productCapabilities": [
+        {
+          "id": 25,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 4
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 4
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 4
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 4
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 4
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Unified Customer View Creation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 3
+            },
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Yodlee Account Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Real-Time Payment Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "The Feedzai Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Signal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Resistant AI Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACI Worldwide Fraud Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Floid Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Fraud Consortium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akoya Payments",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Visa Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "MicroBilt Corporation Credit Decisioning & Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "FICO Falcon Fraud Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accelitas Ai Validate",
+              "importanceValue": 0
+            },
+            {
+              "name": "DigsFact PreCogs",
+              "importanceValue": 0
+            },
+            {
+              "name": "ValidiFI vAccount",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

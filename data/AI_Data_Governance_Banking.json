@@ -1,0 +1,4853 @@
+{
+  "productUseCaseName": "AI Data Governance in Banking",
+  "productRequirements": [
+    {
+      "name": "Align Data with Governance Models",
+      "productCapabilities": [
+        {
+          "id": 3,
+          "name": "Privacy Program Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ALTR Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Privacy and Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Securiti Data Command Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Privacy Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PlainID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Precisely Data Integrity Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Immuta Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataGrail Data Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Semarchy Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethyca Fides",
+              "importanceValue": 0
+            },
+            {
+              "name": "One Identity Identity Governance and Administration",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Private Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Cloud Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Virtru Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mage Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Skyflow Data Privacy Vault",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Internet Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "AWS Identity and Access Management (IAM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Continuous GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSA Security Governance & Lifecycle",
+              "importanceValue": 0
+            },
+            {
+              "name": "OpenText Cybersecurity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Truyo AI Governance Toolset",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Sentinel Data Privacy",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly Privacy Management Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Smarter Contracts Pulse",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kertos Compliance Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Zscaler Data Protection ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Assesso Datacare",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varonis Unified Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Claritas Clair",
+              "importanceValue": 0
+            },
+            {
+              "name": "Innominds iFusion",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optiv Data Governance, Privacy and Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Next",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cyera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bedrock Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Data Security Governance Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE Data Security (Cloud DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Security Posture Management (DSPM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Velotix Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alation Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atlan Active Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microsoft Purview",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ohalo Data X-Ray Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enzuzo Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sentra Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Email Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": " Trellix Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Own Company Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wardn Managed Information Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Satori Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Zero Trust Exchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Threat Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Security Posture",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dasera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Guardium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyberhaven Data Detection and Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Security Service Edge (SSE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Governance Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Normalyze Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Enterprise Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Threat Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Databricks Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Noma Data & AI Lifecycle Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acquia Customer Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SurePath AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Alation Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "data.world Data Catalog Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strac Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kudelski Security MDR ONE Resolute",
+              "importanceValue": 0
+            },
+            {
+              "name": "Congruity360 Classify360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deep Instinct DSX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coalfire Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": " Coalfire Cyber Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "comforte AG Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lepide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Snowflake Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FairNow AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Staige",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM watsonx.ai",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Compose",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prime Factors EncryptRIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datatron Reliable AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protegrity Data Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Portal26 Generative AI Adoption Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Raito Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustLogix Data Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Monitaur Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Credo AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataloop AI Development Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Concentric AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Collibra Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Data Identification Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Domino Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "H2O.ai AI Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Modulos Agentic AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Egnyte Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAP Master Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Defend Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Google Vertex AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Stream",
+              "importanceValue": 0
+            },
+            {
+              "name": "AvePoint Confident Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nudge Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Theom AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CoComply Data and AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberTide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Borneo Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Candela Data Security, Privacy, Governance and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "OptIQ AI Driven Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secoda AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAssistant AI Standards & Assessment Tools",
+              "importanceValue": 0
+            },
+            {
+              "name": "Airia Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Druva Data Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cranium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Dynamics Zubin",
+              "importanceValue": 0
+            },
+            {
+              "name": "PointGuard AI Plaform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cosmian Data Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qanapi Data Security API",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard TPRM",
+              "importanceValue": 0
+            },
+            {
+              "name": "GTB Technologies Data Security that Works® Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Data Security Posture Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acante Data Access Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataPelago Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nexla Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataiku Universal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NVISIONx Nx Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FileOrbis Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Data Governance Frameworks",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ALTR Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Privacy and Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Securiti Data Command Center",
+              "importanceValue": 4
+            },
+            {
+              "name": "BigID Privacy Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PlainID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Precisely Data Integrity Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Immuta Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataGrail Data Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Semarchy Data Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ethyca Fides",
+              "importanceValue": 0
+            },
+            {
+              "name": "One Identity Identity Governance and Administration",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Security Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lookout Secure Private Access",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lookout Secure Cloud Access",
+              "importanceValue": 4
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Virtru Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mage Data Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneTrust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Skyflow Data Privacy Vault",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Internet Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "AWS Identity and Access Management (IAM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Data Governance Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Vanta Continuous GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSA Security Governance & Lifecycle",
+              "importanceValue": 0
+            },
+            {
+              "name": "OpenText Cybersecurity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Truyo AI Governance Toolset",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Sentinel Data Privacy",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly Privacy Management Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Smarter Contracts Pulse",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kertos Compliance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Data Protection ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Assesso Datacare",
+              "importanceValue": 4
+            },
+            {
+              "name": "Forcepoint ONE",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varonis Unified Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Claritas Clair",
+              "importanceValue": 0
+            },
+            {
+              "name": "Innominds iFusion",
+              "importanceValue": 4
+            },
+            {
+              "name": "Imperva Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optiv Data Governance, Privacy and Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Next",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cyera Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bedrock Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tencent Cloud Data Security Governance Center",
+              "importanceValue": 4
+            },
+            {
+              "name": "Forcepoint ONE Data Security (Cloud DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Security Posture Management (DSPM)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Velotix Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alation Data Intelligence Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Atlan Active Data Governance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microsoft Purview",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ohalo Data X-Ray Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Enzuzo Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sentra Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Classification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Forcepoint Email Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": " Trellix Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Own Company Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wardn Managed Information Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Satori Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Zscaler Zero Trust Exchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Threat Analytics",
+              "importanceValue": 4
+            },
+            {
+              "name": "Rubrik Data Security Posture",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dasera Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM Guardium",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cyberhaven Data Detection and Response",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lookout Security Service Edge (SSE)",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrustArc Governance Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Normalyze Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Netwrix Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Enterprise Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Threat Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Databricks Data Intelligence Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Noma Data & AI Lifecycle Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acquia Customer Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SurePath AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Alation Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "data.world Data Catalog Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Strac Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Atera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kudelski Security MDR ONE Resolute",
+              "importanceValue": 0
+            },
+            {
+              "name": "Congruity360 Classify360",
+              "importanceValue": 4
+            },
+            {
+              "name": "Deep Instinct DSX",
+              "importanceValue": 4
+            },
+            {
+              "name": "Coalfire Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": " Coalfire Cyber Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "comforte AG Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lepide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Snowflake Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "FairNow AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Staige",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM watsonx.ai",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Compose",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prime Factors EncryptRIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datatron Reliable AI Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Protegrity Data Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Portal26 Generative AI Adoption Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Raito Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrustLogix Data Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Monitaur Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Credo AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataloop AI Development Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Concentric AI Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Collibra Data Intelligence Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Data443 Data Identification Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "Domino Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "H2O.ai AI Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Modulos Agentic AI Governance Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Egnyte Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SAP Master Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Defend Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Google Vertex AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Stream",
+              "importanceValue": 0
+            },
+            {
+              "name": "AvePoint Confident Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Zendata AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nudge Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Theom AI Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CoComply Data and AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberTide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Borneo Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Candela Data Security, Privacy, Governance and Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "OptIQ AI Driven Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secoda AI Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAssistant AI Standards & Assessment Tools",
+              "importanceValue": 0
+            },
+            {
+              "name": "Airia Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Druva Data Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cranium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Data Dynamics Zubin",
+              "importanceValue": 4
+            },
+            {
+              "name": "PointGuard AI Plaform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cosmian Data Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qanapi Data Security API",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard TPRM",
+              "importanceValue": 0
+            },
+            {
+              "name": "GTB Technologies Data Security that Works® Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Data Security Posture Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acante Data Access Governance",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataPelago Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nexla Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dataiku Universal AI Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "NVISIONx Nx Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FileOrbis Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Governance Policy Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ALTR Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Privacy and Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Securiti Data Command Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Privacy Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PlainID Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Precisely Data Integrity Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Immuta Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataGrail Data Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Semarchy Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethyca Fides",
+              "importanceValue": 0
+            },
+            {
+              "name": "One Identity Identity Governance and Administration",
+              "importanceValue": 4
+            },
+            {
+              "name": "Rubrik Security Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lookout Secure Private Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Cloud Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Virtru Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mage Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Skyflow Data Privacy Vault",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Internet Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "AWS Identity and Access Management (IAM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Continuous GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSA Security Governance & Lifecycle",
+              "importanceValue": 0
+            },
+            {
+              "name": "OpenText Cybersecurity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Truyo AI Governance Toolset",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Sentinel Data Privacy",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly Privacy Management Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Smarter Contracts Pulse",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kertos Compliance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Data Protection ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Assesso Datacare",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varonis Unified Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Claritas Clair",
+              "importanceValue": 0
+            },
+            {
+              "name": "Innominds iFusion",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optiv Data Governance, Privacy and Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Next",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bedrock Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Data Security Governance Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE Data Security (Cloud DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Security Posture Management (DSPM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Velotix Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alation Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atlan Active Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microsoft Purview",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ohalo Data X-Ray Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enzuzo Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sentra Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Email Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": " Trellix Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Own Company Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wardn Managed Information Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Satori Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Zero Trust Exchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Threat Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Security Posture",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dasera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Guardium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyberhaven Data Detection and Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Security Service Edge (SSE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Governance Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Normalyze Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Enterprise Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Threat Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Databricks Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Noma Data & AI Lifecycle Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acquia Customer Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SurePath AI Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": " Alation Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "data.world Data Catalog Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strac Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kudelski Security MDR ONE Resolute",
+              "importanceValue": 0
+            },
+            {
+              "name": "Congruity360 Classify360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deep Instinct DSX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coalfire Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": " Coalfire Cyber Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "comforte AG Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lepide Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Snowflake Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FairNow AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Staige",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM watsonx.ai",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Compose",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prime Factors EncryptRIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datatron Reliable AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protegrity Data Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Portal26 Generative AI Adoption Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Raito Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrustLogix Data Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Monitaur Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Credo AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataloop AI Development Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Concentric AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Collibra Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Data Identification Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Domino Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "H2O.ai AI Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Modulos Agentic AI Governance Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Egnyte Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAP Master Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Defend Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Google Vertex AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Stream",
+              "importanceValue": 0
+            },
+            {
+              "name": "AvePoint Confident Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nudge Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Theom AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CoComply Data and AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberTide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Borneo Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Candela Data Security, Privacy, Governance and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "OptIQ AI Driven Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secoda AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAssistant AI Standards & Assessment Tools",
+              "importanceValue": 0
+            },
+            {
+              "name": "Airia Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Druva Data Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cranium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Dynamics Zubin",
+              "importanceValue": 4
+            },
+            {
+              "name": "PointGuard AI Plaform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cosmian Data Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qanapi Data Security API",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard TPRM",
+              "importanceValue": 0
+            },
+            {
+              "name": "GTB Technologies Data Security that Works® Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Data Security Posture Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acante Data Access Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataPelago Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nexla Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataiku Universal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NVISIONx Nx Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FileOrbis Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Entitlements Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ALTR Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Privacy and Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Securiti Data Command Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Privacy Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PlainID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Precisely Data Integrity Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Immuta Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataGrail Data Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Semarchy Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethyca Fides",
+              "importanceValue": 0
+            },
+            {
+              "name": "One Identity Identity Governance and Administration",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Private Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Cloud Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Virtru Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mage Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Skyflow Data Privacy Vault",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Internet Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "AWS Identity and Access Management (IAM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Continuous GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSA Security Governance & Lifecycle",
+              "importanceValue": 0
+            },
+            {
+              "name": "OpenText Cybersecurity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Truyo AI Governance Toolset",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Sentinel Data Privacy",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly Privacy Management Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Smarter Contracts Pulse",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kertos Compliance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Data Protection ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Assesso Datacare",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varonis Unified Data Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Claritas Clair",
+              "importanceValue": 0
+            },
+            {
+              "name": "Innominds iFusion",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optiv Data Governance, Privacy and Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Next",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bedrock Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Data Security Governance Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE Data Security (Cloud DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Security Posture Management (DSPM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Velotix Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alation Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atlan Active Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microsoft Purview",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ohalo Data X-Ray Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enzuzo Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sentra Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Email Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": " Trellix Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Own Company Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wardn Managed Information Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Satori Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Zero Trust Exchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Threat Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Security Posture",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dasera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Guardium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyberhaven Data Detection and Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Security Service Edge (SSE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Governance Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Normalyze Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Enterprise Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Threat Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Databricks Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Noma Data & AI Lifecycle Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acquia Customer Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SurePath AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Alation Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "data.world Data Catalog Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strac Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kudelski Security MDR ONE Resolute",
+              "importanceValue": 0
+            },
+            {
+              "name": "Congruity360 Classify360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deep Instinct DSX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coalfire Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": " Coalfire Cyber Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "comforte AG Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lepide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Snowflake Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FairNow AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Staige",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM watsonx.ai",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Compose",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prime Factors EncryptRIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datatron Reliable AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protegrity Data Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Portal26 Generative AI Adoption Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Raito Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustLogix Data Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Monitaur Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Credo AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataloop AI Development Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Concentric AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Collibra Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Data Identification Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Domino Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "H2O.ai AI Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Modulos Agentic AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Egnyte Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAP Master Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Defend Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Google Vertex AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Stream",
+              "importanceValue": 0
+            },
+            {
+              "name": "AvePoint Confident Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nudge Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Theom AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CoComply Data and AI Governance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mandatly AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberTide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Borneo Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Candela Data Security, Privacy, Governance and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "OptIQ AI Driven Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secoda AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAssistant AI Standards & Assessment Tools",
+              "importanceValue": 0
+            },
+            {
+              "name": "Airia Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Druva Data Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cranium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Dynamics Zubin",
+              "importanceValue": 0
+            },
+            {
+              "name": "PointGuard AI Plaform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cosmian Data Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qanapi Data Security API",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard TPRM",
+              "importanceValue": 0
+            },
+            {
+              "name": "GTB Technologies Data Security that Works® Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Data Security Posture Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acante Data Access Governance",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataPelago Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nexla Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataiku Universal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NVISIONx Nx Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FileOrbis Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Compliance Policy Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ALTR Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Privacy and Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Securiti Data Command Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Privacy Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PlainID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Precisely Data Integrity Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Immuta Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataGrail Data Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Semarchy Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethyca Fides",
+              "importanceValue": 0
+            },
+            {
+              "name": "One Identity Identity Governance and Administration",
+              "importanceValue": 4
+            },
+            {
+              "name": "Rubrik Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Private Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Cloud Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Virtru Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mage Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Skyflow Data Privacy Vault",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Internet Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "AWS Identity and Access Management (IAM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Continuous GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSA Security Governance & Lifecycle",
+              "importanceValue": 0
+            },
+            {
+              "name": "OpenText Cybersecurity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Truyo AI Governance Toolset",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Sentinel Data Privacy",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly Privacy Management Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Smarter Contracts Pulse",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kertos Compliance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Data Protection ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Assesso Datacare",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varonis Unified Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Claritas Clair",
+              "importanceValue": 0
+            },
+            {
+              "name": "Innominds iFusion",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optiv Data Governance, Privacy and Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Next",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bedrock Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Data Security Governance Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE Data Security (Cloud DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Security Posture Management (DSPM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Velotix Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alation Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atlan Active Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microsoft Purview",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ohalo Data X-Ray Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enzuzo Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sentra Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Email Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": " Trellix Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Own Company Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wardn Managed Information Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Satori Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Zero Trust Exchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Threat Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Security Posture",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dasera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Guardium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyberhaven Data Detection and Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Security Service Edge (SSE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Governance Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Normalyze Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Enterprise Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Threat Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Databricks Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Noma Data & AI Lifecycle Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acquia Customer Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SurePath AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Alation Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "data.world Data Catalog Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strac Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kudelski Security MDR ONE Resolute",
+              "importanceValue": 0
+            },
+            {
+              "name": "Congruity360 Classify360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deep Instinct DSX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coalfire Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": " Coalfire Cyber Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "comforte AG Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lepide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Snowflake Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "FairNow AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Staige",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM watsonx.ai",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Compose",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prime Factors EncryptRIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datatron Reliable AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Protegrity Data Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Portal26 Generative AI Adoption Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Raito Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustLogix Data Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Monitaur Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Credo AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataloop AI Development Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Concentric AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Collibra Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Data Identification Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Domino Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "H2O.ai AI Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Modulos Agentic AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Egnyte Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAP Master Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Defend Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Google Vertex AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Stream",
+              "importanceValue": 0
+            },
+            {
+              "name": "AvePoint Confident Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nudge Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Theom AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CoComply Data and AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberTide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Borneo Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Candela Data Security, Privacy, Governance and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "OptIQ AI Driven Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secoda AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAssistant AI Standards & Assessment Tools",
+              "importanceValue": 0
+            },
+            {
+              "name": "Airia Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Druva Data Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cranium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Dynamics Zubin",
+              "importanceValue": 0
+            },
+            {
+              "name": "PointGuard AI Plaform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cosmian Data Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qanapi Data Security API",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard TPRM",
+              "importanceValue": 4
+            },
+            {
+              "name": "GTB Technologies Data Security that Works® Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Data Security Posture Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acante Data Access Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataPelago Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nexla Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataiku Universal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NVISIONx Nx Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FileOrbis Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Data Discovery",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Data Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ALTR Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Privacy and Data Governance Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Securiti Data Command Center",
+              "importanceValue": 3
+            },
+            {
+              "name": "BigID Privacy Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "PlainID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Precisely Data Integrity Suite",
+              "importanceValue": 3
+            },
+            {
+              "name": "Immuta Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "DataGrail Data Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Semarchy Data Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ethyca Fides",
+              "importanceValue": 3
+            },
+            {
+              "name": "One Identity Identity Governance and Administration",
+              "importanceValue": 3
+            },
+            {
+              "name": "Rubrik Security Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Lookout Secure Private Access",
+              "importanceValue": 3
+            },
+            {
+              "name": "Lookout Secure Cloud Access",
+              "importanceValue": 3
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Virtru Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mage Data Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneTrust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Skyflow Data Privacy Vault",
+              "importanceValue": 3
+            },
+            {
+              "name": "Lookout Secure Internet Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "AWS Identity and Access Management (IAM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Data Governance Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Vanta Continuous GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSA Security Governance & Lifecycle",
+              "importanceValue": 0
+            },
+            {
+              "name": "OpenText Cybersecurity Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Truyo AI Governance Toolset",
+              "importanceValue": 3
+            },
+            {
+              "name": "Data Sentinel Data Privacy",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly Privacy Management Suite",
+              "importanceValue": 3
+            },
+            {
+              "name": "Smarter Contracts Pulse",
+              "importanceValue": 0
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kertos Compliance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Data Protection ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Assesso Datacare",
+              "importanceValue": 3
+            },
+            {
+              "name": "Forcepoint ONE",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varonis Unified Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Claritas Clair",
+              "importanceValue": 0
+            },
+            {
+              "name": "Innominds iFusion",
+              "importanceValue": 3
+            },
+            {
+              "name": "Imperva Data Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Optiv Data Governance, Privacy and Protection",
+              "importanceValue": 3
+            },
+            {
+              "name": "BigID Next",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cyera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bedrock Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Tencent Cloud Data Security Governance Center",
+              "importanceValue": 3
+            },
+            {
+              "name": "Forcepoint ONE Data Security (Cloud DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Security Posture Management (DSPM)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Velotix Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 3
+            },
+            {
+              "name": "Alation Data Intelligence Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Atlan Active Data Governance",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microsoft Purview",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ohalo Data X-Ray Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Enzuzo Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sentra Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Email Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": " Trellix Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Own Company Data Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Wardn Managed Information Protection",
+              "importanceValue": 3
+            },
+            {
+              "name": "Satori Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Zscaler Zero Trust Exchange Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Rubrik Data Threat Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Security Posture",
+              "importanceValue": 3
+            },
+            {
+              "name": "Dasera Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM Guardium",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cyberhaven Data Detection and Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Security Service Edge (SSE)",
+              "importanceValue": 3
+            },
+            {
+              "name": "TrustArc Governance Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Normalyze Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Netwrix Auditor",
+              "importanceValue": 3
+            },
+            {
+              "name": "Netwrix Data Classification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Netwrix Enterprise Auditor",
+              "importanceValue": 3
+            },
+            {
+              "name": "Netwrix Threat Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Databricks Data Intelligence Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Noma Data & AI Lifecycle Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Acquia Customer Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SurePath AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": " Alation Data Governance",
+              "importanceValue": 3
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "data.world Data Catalog Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Strac Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Atera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kudelski Security MDR ONE Resolute",
+              "importanceValue": 0
+            },
+            {
+              "name": "Congruity360 Classify360",
+              "importanceValue": 3
+            },
+            {
+              "name": "Deep Instinct DSX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coalfire Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": " Coalfire Cyber Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "comforte AG Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Lepide Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Snowflake Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "FairNow AI Governance Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Qlik Staige",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM watsonx.ai",
+              "importanceValue": 3
+            },
+            {
+              "name": "Qlik Compose",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prime Factors EncryptRIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datatron Reliable AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Protegrity Data Protection Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Portal26 Generative AI Adoption Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Raito Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustLogix Data Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Monitaur Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Credo AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataloop AI Development Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Concentric AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Collibra Data Intelligence Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Data443 Data Identification Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Domino Enterprise AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "H2O.ai AI Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Modulos Agentic AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Egnyte Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "SAP Master Data Governance",
+              "importanceValue": 3
+            },
+            {
+              "name": "Proofpoint Defend Data",
+              "importanceValue": 3
+            },
+            {
+              "name": "Google Vertex AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": " Uniphore X-Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": " Uniphore X-Stream",
+              "importanceValue": 3
+            },
+            {
+              "name": "AvePoint Confident Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Zendata Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Zendata AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nudge Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Theom AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "CoComply Data and AI Governance",
+              "importanceValue": 3
+            },
+            {
+              "name": "Mandatly AI Governance",
+              "importanceValue": 3
+            },
+            {
+              "name": "CyberTide Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Borneo Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Candela Data Security, Privacy, Governance and Compliance",
+              "importanceValue": 3
+            },
+            {
+              "name": "OptIQ AI Driven Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Secoda AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ComplyAssistant AI Standards & Assessment Tools",
+              "importanceValue": 3
+            },
+            {
+              "name": "Airia Enterprise AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Druva Data Security Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cranium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Data Dynamics Zubin",
+              "importanceValue": 3
+            },
+            {
+              "name": "PointGuard AI Plaform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cosmian Data Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qanapi Data Security API",
+              "importanceValue": 3
+            },
+            {
+              "name": "AuditBoard TPRM",
+              "importanceValue": 0
+            },
+            {
+              "name": "GTB Technologies Data Security that Works® Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Proofpoint Data Security Posture Management",
+              "importanceValue": 3
+            },
+            {
+              "name": "Acante Data Access Governance",
+              "importanceValue": 3
+            },
+            {
+              "name": "DataPelago Engine",
+              "importanceValue": 3
+            },
+            {
+              "name": "Nexla Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Dataiku Universal AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "NVISIONx Nx Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "FileOrbis Platform",
+              "importanceValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tune Models for Accuracy and Performance",
+      "productCapabilities": [
+        {
+          "id": 2,
+          "name": "AI Bias Mitigation Algorithms",
+          "importance": 2,
+          "products": [
+            {
+              "name": "ALTR Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Privacy and Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Securiti Data Command Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Privacy Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PlainID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Precisely Data Integrity Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Immuta Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataGrail Data Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Semarchy Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethyca Fides",
+              "importanceValue": 0
+            },
+            {
+              "name": "One Identity Identity Governance and Administration",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Private Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Cloud Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Virtru Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mage Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Skyflow Data Privacy Vault",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Internet Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "AWS Identity and Access Management (IAM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Continuous GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSA Security Governance & Lifecycle",
+              "importanceValue": 0
+            },
+            {
+              "name": "OpenText Cybersecurity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Truyo AI Governance Toolset",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Sentinel Data Privacy",
+              "importanceValue": 2
+            },
+            {
+              "name": "Mandatly Privacy Management Suite",
+              "importanceValue": 2
+            },
+            {
+              "name": "Smarter Contracts Pulse",
+              "importanceValue": 2
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kertos Compliance Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Zscaler Data Protection ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Assesso Datacare",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varonis Unified Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Claritas Clair",
+              "importanceValue": 0
+            },
+            {
+              "name": "Innominds iFusion",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optiv Data Governance, Privacy and Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Next",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bedrock Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Data Security Governance Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE Data Security (Cloud DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Security Posture Management (DSPM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Velotix Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alation Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atlan Active Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microsoft Purview",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ohalo Data X-Ray Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enzuzo Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sentra Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Email Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": " Trellix Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Own Company Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wardn Managed Information Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Satori Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Zero Trust Exchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Threat Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Security Posture",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dasera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Guardium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyberhaven Data Detection and Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Security Service Edge (SSE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Governance Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Normalyze Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Enterprise Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Threat Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Databricks Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Noma Data & AI Lifecycle Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acquia Customer Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SurePath AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Alation Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "data.world Data Catalog Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strac Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kudelski Security MDR ONE Resolute",
+              "importanceValue": 0
+            },
+            {
+              "name": "Congruity360 Classify360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deep Instinct DSX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coalfire Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": " Coalfire Cyber Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "comforte AG Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lepide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Snowflake Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FairNow AI Governance Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Qlik Staige",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM watsonx.ai",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Compose",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prime Factors EncryptRIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datatron Reliable AI Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Protegrity Data Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Portal26 Generative AI Adoption Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Raito Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustLogix Data Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Monitaur Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Credo AI Governance Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Dataloop AI Development Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Concentric AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Collibra Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Data Identification Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Domino Enterprise AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "H2O.ai AI Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Modulos Agentic AI Governance Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Egnyte Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAP Master Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Defend Data",
+              "importanceValue": 2
+            },
+            {
+              "name": "Google Vertex AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Stream",
+              "importanceValue": 2
+            },
+            {
+              "name": "AvePoint Confident Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata AI Governance",
+              "importanceValue": 2
+            },
+            {
+              "name": "Nudge Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Theom AI Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "CoComply Data and AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mandatly AI Governance",
+              "importanceValue": 2
+            },
+            {
+              "name": "CyberTide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Borneo Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Candela Data Security, Privacy, Governance and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "OptIQ AI Driven Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secoda AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAssistant AI Standards & Assessment Tools",
+              "importanceValue": 0
+            },
+            {
+              "name": "Airia Enterprise AI Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Druva Data Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cranium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Dynamics Zubin",
+              "importanceValue": 0
+            },
+            {
+              "name": "PointGuard AI Plaform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cosmian Data Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qanapi Data Security API",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard TPRM",
+              "importanceValue": 0
+            },
+            {
+              "name": "GTB Technologies Data Security that Works® Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Data Security Posture Management",
+              "importanceValue": 2
+            },
+            {
+              "name": "Acante Data Access Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataPelago Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nexla Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataiku Universal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NVISIONx Nx Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "FileOrbis Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 8,
+          "name": "Data Governance Audit Trail",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ALTR Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Privacy and Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Securiti Data Command Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Privacy Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "PlainID Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Precisely Data Integrity Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Immuta Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataGrail Data Privacy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Semarchy Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethyca Fides",
+              "importanceValue": 0
+            },
+            {
+              "name": "One Identity Identity Governance and Administration",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Private Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Cloud Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrowdStrike Falcon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Virtru Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mage Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneTrust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Skyflow Data Privacy Vault",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Secure Internet Access",
+              "importanceValue": 0
+            },
+            {
+              "name": "AWS Identity and Access Management (IAM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Data Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vanta Continuous GRC",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSA Security Governance & Lifecycle",
+              "importanceValue": 3
+            },
+            {
+              "name": "OpenText Cybersecurity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Truyo AI Governance Toolset",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Sentinel Data Privacy",
+              "importanceValue": 3
+            },
+            {
+              "name": "Mandatly Privacy Management Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Smarter Contracts Pulse",
+              "importanceValue": 3
+            },
+            {
+              "name": "SentinelOne Singularity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kertos Compliance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Data Protection ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Assesso Datacare",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Varonis Unified Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Claritas Clair",
+              "importanceValue": 0
+            },
+            {
+              "name": "Innominds iFusion",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optiv Data Governance, Privacy and Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "BigID Next",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bedrock Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Data Security Governance Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint ONE Data Security (Cloud DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Security Posture Management (DSPM)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Velotix Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alation Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atlan Active Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microsoft Purview",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ohalo Data X-Ray Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enzuzo Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sentra Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LogicGate Risk Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forcepoint Email Data Loss Prevention (DLP)",
+              "importanceValue": 0
+            },
+            {
+              "name": " Trellix Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Own Company Data Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wardn Managed Information Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Satori Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zscaler Zero Trust Exchange Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Threat Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rubrik Data Security Posture",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dasera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM Guardium",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cyberhaven Data Detection and Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Security Service Edge (SSE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustArc Governance Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Normalyze Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Data Classification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Enterprise Auditor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Netwrix Threat Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Databricks Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Noma Data & AI Lifecycle Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acquia Customer Data Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SurePath AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": " Alation Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "data.world Data Catalog Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strac Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Atera Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kudelski Security MDR ONE Resolute",
+              "importanceValue": 0
+            },
+            {
+              "name": "Congruity360 Classify360",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deep Instinct DSX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Coalfire Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": " Coalfire Cyber Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "comforte AG Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lepide Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Snowflake Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "FairNow AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Staige",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM watsonx.ai",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qlik Compose",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prime Factors EncryptRIGHT",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datatron Reliable AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Protegrity Data Protection Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Portal26 Generative AI Adoption Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Raito Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "TrustLogix Data Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Monitaur Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Credo AI Governance Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataloop AI Development Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Concentric AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Collibra Data Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Data Identification Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Domino Enterprise AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "H2O.ai AI Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Modulos Agentic AI Governance Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Egnyte Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAP Master Data Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Defend Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Google Vertex AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": " Uniphore X-Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": " Uniphore X-Stream",
+              "importanceValue": 0
+            },
+            {
+              "name": "AvePoint Confident Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Zendata Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zendata AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nudge Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Theom AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "CoComply Data and AI Governance",
+              "importanceValue": 3
+            },
+            {
+              "name": "Mandatly AI Governance",
+              "importanceValue": 0
+            },
+            {
+              "name": "CyberTide Data Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Borneo Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Candela Data Security, Privacy, Governance and Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "OptIQ AI Driven Data Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Secoda AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAssistant AI Standards & Assessment Tools",
+              "importanceValue": 0
+            },
+            {
+              "name": "Airia Enterprise AI Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Druva Data Security Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cranium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lookout Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Dynamics Zubin",
+              "importanceValue": 3
+            },
+            {
+              "name": "PointGuard AI Plaform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cosmian Data Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Qanapi Data Security API",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuditBoard TPRM",
+              "importanceValue": 0
+            },
+            {
+              "name": "GTB Technologies Data Security that Works® Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Proofpoint Data Security Posture Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acante Data Access Governance",
+              "importanceValue": 3
+            },
+            {
+              "name": "DataPelago Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nexla Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dataiku Universal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NVISIONx Nx Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "FileOrbis Platform",
+              "importanceValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Safeguard Customer Data & PII",
+      "productCapabilities": []
+    }
+  ]
+}

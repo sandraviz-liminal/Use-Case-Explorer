@@ -1,0 +1,3026 @@
+{
+  "productUseCaseName": "API Security in Banking",
+  "productRequirements": [
+    {
+      "name": "Conduct Periodic Security Testing",
+      "productCapabilities": [
+        {
+          "id": 12,
+          "name": "DevSecOps Automation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 4
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Dynamic Application Security Testing (DAST)",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Static Application Security Testing (SAST)",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Pentest Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 3
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 3
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 3
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 3
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 3
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Runtime Application Self Protection (RASP)",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Map the Attack Surface",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "API Discovery",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "IT Asset Discovery",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Shadow API Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Analytics and Reporting",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 3
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Employee User Roles and Permissions",
+      "productCapabilities": [
+        {
+          "id": 5,
+          "name": "Role Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Governance Policy Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Identity Lifecycle Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monitor Network Traffic for Anomalies",
+      "productCapabilities": [
+        {
+          "id": 9,
+          "name": "API Traffic Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Cyber Threat & Vulnerability Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 3
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Network Detection and Response (NDR)",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 3
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 3
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 3
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 3
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 3
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Safeguard Organizational Data",
+      "productCapabilities": [
+        {
+          "id": 8,
+          "name": "Data Encryption",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Salt Security API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Imperva Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Curity Identity Server",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graylog API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "VerifiedVisitors Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CDNetworks Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security Pentest Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alert Logic Managed Web Application Firewall",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Distributed Cloud Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 BIG-IP Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xoriant Cyber Security Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Check Point Software Technologies Infinity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Managed Web Application Firewall (WAF)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare Application Security & Performance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Akamai Technologies API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Traceable API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Check Point Software Technologies CloudGuard",
+              "importanceValue": 0
+            },
+            {
+              "name": "Invicti Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dotcom Cybersecurity Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Holm Security API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Contrast Security Contrast One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acunetix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 NGINX",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Secure WAF and Bot Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cequence Security Unified API Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Reveal Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aptori AI-Driven AppSec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Levo.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Astra Security API Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Akana by Perforce API Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Approov Mobile Application Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rackspace Cloud Security Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Waratek Java Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Waratek Secure",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mayhem API Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "F5 Application Delivery and Security Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "GitLab DevSecOps Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monitor Ongoing Cybersecurity Risk",
+      "productCapabilities": []
+    }
+  ]
+}

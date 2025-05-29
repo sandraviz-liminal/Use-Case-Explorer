@@ -2,113 +2,6 @@
   "productUseCaseName": "Ghost Employee Scheme",
   "productRequirements": [
     {
-      "name": "Detect Anomalous User Activity",
-      "productCapabilities": [
-        {
-          "id": 1,
-          "name": "Bot Detection",
-          "importance": 3,
-          "products": [
-            {
-              "name": "Socure RiskOS Platform",
-              "importanceValue": 3
-            },
-            {
-              "name": "fraud.com aiReflex",
-              "importanceValue": 0
-            },
-            {
-              "name": "ComplyAdvantage Mesh",
-              "importanceValue": 0
-            },
-            {
-              "name": "Pinwheel Verify",
-              "importanceValue": 0
-            },
-            {
-              "name": "Thomson Reuters Fraud Detect",
-              "importanceValue": 0
-            },
-            {
-              "name": "Oscilar Platform",
-              "importanceValue": 3
-            },
-            {
-              "name": "Alessa Fraud Detection and Prevention",
-              "importanceValue": 0
-            },
-            {
-              "name": "Alacer Velocity FinCrime Suite",
-              "importanceValue": 0
-            },
-            {
-              "name": "Arctic Intelligence Risk Assessment",
-              "importanceValue": 0
-            },
-            {
-              "name": "VigilantPay Platform",
-              "importanceValue": 0
-            },
-            {
-              "name": "Logic Pursuits Payroll Fraud Analyzer",
-              "importanceValue": 0
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "name": "Behavioral Biometrics",
-          "importance": 3,
-          "products": [
-            {
-              "name": "Socure RiskOS Platform",
-              "importanceValue": 3
-            },
-            {
-              "name": "fraud.com aiReflex",
-              "importanceValue": 0
-            },
-            {
-              "name": "ComplyAdvantage Mesh",
-              "importanceValue": 0
-            },
-            {
-              "name": "Pinwheel Verify",
-              "importanceValue": 0
-            },
-            {
-              "name": "Thomson Reuters Fraud Detect",
-              "importanceValue": 0
-            },
-            {
-              "name": "Oscilar Platform",
-              "importanceValue": 3
-            },
-            {
-              "name": "Alessa Fraud Detection and Prevention",
-              "importanceValue": 0
-            },
-            {
-              "name": "Alacer Velocity FinCrime Suite",
-              "importanceValue": 0
-            },
-            {
-              "name": "Arctic Intelligence Risk Assessment",
-              "importanceValue": 0
-            },
-            {
-              "name": "VigilantPay Platform",
-              "importanceValue": 0
-            },
-            {
-              "name": "Logic Pursuits Payroll Fraud Analyzer",
-              "importanceValue": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Conduct an Applicant Background Check",
       "productCapabilities": [
         {
@@ -318,16 +211,16 @@
       ]
     },
     {
-      "name": "Document an Audit Trail",
+      "name": "Detect Anomalous User Activity",
       "productCapabilities": [
         {
-          "id": 7,
-          "name": "HR and Payroll Audit Trail Management",
+          "id": 1,
+          "name": "Bot Detection",
           "importance": 3,
           "products": [
             {
               "name": "Socure RiskOS Platform",
-              "importanceValue": 0
+              "importanceValue": 3
             },
             {
               "name": "fraud.com aiReflex",
@@ -347,7 +240,58 @@
             },
             {
               "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
               "importanceValue": 0
+            },
+            {
+              "name": "Alacer Velocity FinCrime Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "VigilantPay Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Logic Pursuits Payroll Fraud Analyzer",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pinwheel Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
             },
             {
               "name": "Alessa Fraud Detection and Prevention",
@@ -471,6 +415,62 @@
             {
               "name": "VigilantPay Platform",
               "importanceValue": 3
+            },
+            {
+              "name": "Logic Pursuits Payroll Fraud Analyzer",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 7,
+          "name": "HR and Payroll Audit Trail Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pinwheel Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alacer Velocity FinCrime Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "VigilantPay Platform",
+              "importanceValue": 0
             },
             {
               "name": "Logic Pursuits Payroll Fraud Analyzer",

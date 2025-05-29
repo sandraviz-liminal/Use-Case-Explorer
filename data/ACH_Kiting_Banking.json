@@ -2,10 +2,6 @@
   "productUseCaseName": "ACH Kiting for Banking",
   "productRequirements": [
     {
-      "name": "Detect Anomalous User Activity",
-      "productCapabilities": []
-    },
-    {
       "name": "Detect Suspicious Transactions",
       "productCapabilities": [
         {
@@ -46,10 +42,6 @@
       ]
     },
     {
-      "name": "Generate a Dynamic User Risk Score",
-      "productCapabilities": []
-    },
-    {
       "name": "Manage Investigations and Case Workflows",
       "productCapabilities": [
         {
@@ -68,6 +60,14 @@
           ]
         }
       ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": []
+    },
+    {
+      "name": "Generate a Dynamic User Risk Score",
+      "productCapabilities": []
     },
     {
       "name": "Perform Customer Due Diligence (CDD)",

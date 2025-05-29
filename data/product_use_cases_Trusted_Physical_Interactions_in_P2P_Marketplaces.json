@@ -1,0 +1,5924 @@
+{
+  "productUseCaseName": "Trusted Physical Interactions in P2P Marketplaces",
+  "productRequirements": [
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 14,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Device Behavior Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Customer Risk Profiling",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Identity Resolution",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 4
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Cross-device Identity Graphing",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Audience Segmentation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Data Breach Monitoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "SIM Swap Detection",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 3
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 3
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "DeepFake Detection",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Behavioral Analytics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Behavioral Biometrics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 2
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 26,
+          "name": "Person to Person (P2P) Messaging",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Person to Person (P2P) Message Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Customer Risk Profiling",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Application-to-Person Messaging (A2P)",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Payments Facilitation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "App-based Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Continuous Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "Behavioral Analytics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "Behavioral Biometrics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 2
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform User Identity Verification",
+      "productCapabilities": [
+        {
+          "id": 4,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 4
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 4
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Name Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 4
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Mobile Device Identity Binding",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Identity Verification Orchestration",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 4
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Government Identification Number Verification",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 3
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 3
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conduct an Applicant Background Check",
+      "productCapabilities": [
+        {
+          "id": 9,
+          "name": "Sex Offender Registry Check",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 4
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Banned List Check",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 4
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 4
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Right to Work Check",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Driving Record Check",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 3
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 3
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 3
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 3
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Credential Verification",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 2
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 2
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate a Dynamic Trust Score",
+      "productCapabilities": [
+        {
+          "id": 36,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "Continuous Workforce Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 4
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "Customer Risk Profiling",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "name": "Behavioral Analytics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collect and Manage User Consent",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Consent and Preference Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "GDPR Data Compliance Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "CCPA Data Compliance Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Digital Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sterling Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Microblink BlinkID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Experian Identity Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "InfoMart Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa Fraud Detection and Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion ePrefill",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIndicators",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Continuous Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bytte FinGo",
+              "importanceValue": 0
+            },
+            {
+              "name": "HURU Criminal Record Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion Digital Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hooli App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Location Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "ScoutLogic Background Check Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkr Trust",
+              "importanceValue": 0
+            },
+            {
+              "name": "Enformion eIDMonitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Entrust Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Evident Onboarding",
+              "importanceValue": 0
+            },
+            {
+              "name": "Profilelens Services Background Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFirst Background Checks",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmatic Remote Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Liquid Pass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AB Global Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "BD Services Background Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "SambaSafety Driver Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veriswift Background Screening Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "3rd Degree Screening Background Checks",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

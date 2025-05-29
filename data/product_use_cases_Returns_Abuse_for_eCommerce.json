@@ -1,0 +1,3533 @@
+{
+  "productUseCaseName": "Returns Abuse for eCommerce",
+  "productRequirements": [
+    {
+      "name": "Trigger Dynamic Authentication Based on User Risk",
+      "productCapabilities": [
+        {
+          "id": 16,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 4
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 4
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Adaptive Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 3
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 3
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 4
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 4
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "eCommerce Returns Monitoring and Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 4
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 4
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 4
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 4
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 4
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Bot Detection",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 3
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 3
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate a Dynamic User Risk Score",
+      "productCapabilities": [
+        {
+          "id": 11,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 4
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 4
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Bot Detection",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 3
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 3
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 7,
+          "name": "eCommerce Returns Monitoring and Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 4
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 4
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 4
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 4
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 4
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 4
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 4
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 4
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 9,
+          "name": "Return/Refund Audit Trail Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 0
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Evaluate Internal Sales Data for Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 10,
+          "name": "eCommerce Returns Monitoring and Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer FraudSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ekata Address Risk API",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "XTN Cognitive Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk ID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oneytrust D-Risk Commerce",
+              "importanceValue": 0
+            },
+            {
+              "name": "Accertify Abuse Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incognia Device Tamper Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sonar Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pagos Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Loop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tailed Return Fraud Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tailed Returns Audit",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tailed Identity Linking",
+              "importanceValue": 4
+            },
+            {
+              "name": "ReverseLogix Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "WeSupply Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ReturnBear Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Outvio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Optoro Return Management System",
+              "importanceValue": 4
+            },
+            {
+              "name": "ReturnPro Returns SaaS",
+              "importanceValue": 0
+            },
+            {
+              "name": "ReturnLogic Returns Automation",
+              "importanceValue": 4
+            },
+            {
+              "name": "Narvar Shield",
+              "importanceValue": 4
+            },
+            {
+              "name": "AfterShip Returns",
+              "importanceValue": 4
+            },
+            {
+              "name": "MiniAILive Document Liveness Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dodgeball Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

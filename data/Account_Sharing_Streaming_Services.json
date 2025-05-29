@@ -1,0 +1,2300 @@
+{
+  "productUseCaseName": "Account Sharing in Digital Content for Streaming Services",
+  "productRequirements": [
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 16,
+          "name": "Single Sign-On (SSO)",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Customer Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Biometric Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 3
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 3
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 3
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Access Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Continuous Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Multi-Factor Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Adaptive Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 9,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Unified Customer View Creation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Cross-device Identity Graphing",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Fraud Monitoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 3
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 3
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 3
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 3
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 3
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 3
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 3
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 3
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Bot Detection",
+          "importance": 2,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 2
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 2
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enable a Unified Customer Identity (360 View)",
+      "productCapabilities": [
+        {
+          "id": 4,
+          "name": "Unified Customer View Creation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Customer Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Data Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Customer Data Onboarding",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Customer Data Linking",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Customer Accounts, Profiles, and Permissions",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Customer Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Access Controls Provisioning And De-provisioning",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Access Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collect and Manage User Consent",
+      "productCapabilities": [
+        {
+          "id": 15,
+          "name": "Consent and Preference Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "GeoComply Core",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD Feature AI Engine",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisoul Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SHIELD AdShield",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rupt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "JuicyScore Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CrossClassify Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Phone Number Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Email Address Analytics",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull IP Address Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Device Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustfull Browser Fingerprinting",
+              "importanceValue": 0
+            },
+            {
+              "name": "Legitimuz BetSafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraudnetic Solutions",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uphold Brand Integrity & Reputation",
+      "productCapabilities": []
+    },
+    {
+      "name": "Safeguard Customer Data & PII",
+      "productCapabilities": []
+    }
+  ]
+}

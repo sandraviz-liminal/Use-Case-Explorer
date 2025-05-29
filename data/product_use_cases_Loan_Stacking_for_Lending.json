@@ -1,0 +1,2070 @@
+{
+  "productUseCaseName": "Loan Stacking for Lending",
+  "productRequirements": [
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 15,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Consumer Credit Scoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Biometric Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Multi-Factor Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Behavioral Analytics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trigger Dynamic Authentication Based on User Risk",
+      "productCapabilities": [
+        {
+          "id": 28,
+          "name": "Credit Risk Assessment Tools",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "Multi-Factor Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "Adaptive Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "Behavioral Analytics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Biometric Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Adaptive Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Multi-Factor Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Behavioral Analytics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 10,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Bot Detection",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 3
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Behavioral Analytics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate Applicant Risk Score",
+      "productCapabilities": [
+        {
+          "id": 26,
+          "name": "Consumer Financial Transaction Data",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Consumer Credit Scoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 25,
+          "name": "Consumer Lending Audit Trail Management and Reporting",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nasdaq Verafin Fraud Detection and Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signzy Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Quantexa Decision Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Behavioral Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Smart Insights",
+              "importanceValue": 0
+            },
+            {
+              "name": "ThreatMark Cyber Fraud Fusion Center",
+              "importanceValue": 0
+            },
+            {
+              "name": "Inscribe AI Fraud Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrustDecision Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Markaaz Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

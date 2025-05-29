@@ -1,0 +1,3228 @@
+{
+  "productUseCaseName": "Container Security for Banking",
+  "productRequirements": [
+    {
+      "name": "Secure Containers and Orchestration Platforms",
+      "productCapabilities": [
+        {
+          "id": 9,
+          "name": "Application Threat Mitigation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Cloud Workload Protection Platforms (CWPP)",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Runtime Application Self Protection (RASP)",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 4
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Role Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Dynamic Application Security Testing (DAST)",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 3
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "DevSecOps Automation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 3
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 3
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 3
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 3
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Cybersecurity Orchestration",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 3
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Enterprise Secrets Management",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Maintain a Cybersecurity Incident Response Plan",
+      "productCapabilities": [
+        {
+          "id": 17,
+          "name": "Cybersecurity Incident Response & Vulnerability Remediation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Cybersecurity Event Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Cyber Threat & Vulnerability Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 4
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Cybersecurity Incident Reporting",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Third-party Relationship Mapping",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conduct Periodic Security Testing",
+      "productCapabilities": [
+        {
+          "id": 22,
+          "name": "Pentest Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Reporting and Documentation for Pentesting",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Collaboration and Workflow Management for Pentesting",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Pentesting Compliance Mapping",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "DevSecOps Automation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 3
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 3
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 3
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Map the Attack Surface",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "API Discovery",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Third-party IT Asset Risk Categorization",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Analytics and Reporting",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Vulnerability Scanning",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scan Artifacts Across the Software Development Lifecycle",
+      "productCapabilities": [
+        {
+          "id": 5,
+          "name": "Container Image Scanning",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 4
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 4
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 4
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Vulnerability Scanning",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 0
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Software Composition Analysis (SCA)",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 4
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Static Application Security Testing (SAST)",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Cycode Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Palo Alto Networks Prisma Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Amazon Inspector",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Wiz Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lacework FortiCNAPP",
+              "importanceValue": 4
+            },
+            {
+              "name": "OX Security Active ASPM Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Upwind Cloud Native Application Protection Platform (CNAPP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sysdig Monitor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkmarx One",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mend AppSec Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aqua Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IBM QRadar Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Red Hat OpenShift",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidFort Software Attack Surface Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veracode Intelligent Software Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tencent Cloud Container Security Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "Progress Chef ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rainforest Technologies Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Confluera CxDR Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Deepfactor Application Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "BoundaryX Container Security Protection System",
+              "importanceValue": 0
+            },
+            {
+              "name": "AlgoSec Horizon Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Strong Network Cloud Development Environment (CDE) Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datadog Product Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spyderbat Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudanix Code To Cloud Security Platform",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

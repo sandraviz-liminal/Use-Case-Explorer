@@ -1,0 +1,3629 @@
+{
+  "productUseCaseName": "Customer Onboarding for eCommerce",
+  "productRequirements": [
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 4
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 4
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Customer Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 3
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Biometric Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 3
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 3
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 3
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 3
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 3
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 3
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 3
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 3
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 3
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Single Sign-On (SSO)",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Continuous Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Multi-Factor Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 2
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 2
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 2
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 2
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 2
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Adaptive Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 2
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 2
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 2
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Mobile Carrier API Access",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collect and Manage User Consent",
+      "productCapabilities": [
+        {
+          "id": 14,
+          "name": "Consent and Preference Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 4
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "GDPR Data Compliance Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 4
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "CCPA Data Compliance Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Data Governance Policy Engine",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Privacy and Consent Regulatory Research Platform",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Create a Centralized Directory of Customer Identities",
+      "productCapabilities": [
+        {
+          "id": 19,
+          "name": "Customer Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate a Dynamic Trust Score",
+      "productCapabilities": [
+        {
+          "id": 20,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 3
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Customer Accounts, Profiles, and Permissions",
+      "productCapabilities": [
+        {
+          "id": 21,
+          "name": "Customer Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Jumio ID Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Keesing Technologies AuthentiScan",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jumio Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Identiq Network",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology ExpectID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedRx",
+              "importanceValue": 0
+            },
+            {
+              "name": "Veratad VX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDology Fraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "ADVANCE.AI OneStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Fraud & Risk Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "GBG Go",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedFi",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDcheck Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trua Endera",
+              "importanceValue": 0
+            },
+            {
+              "name": "VouchedAuto",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Address RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Email RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Phone RiskScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Device Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Age Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "VeriFace Identity Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sign3 Digital Footprint",
+              "importanceValue": 0
+            },
+            {
+              "name": "AiPrise Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaID ",
+              "importanceValue": 0
+            },
+            {
+              "name": "TruaScore",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darwinium Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYCAID Verification Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ProofOfID Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Agency Digital Authenticator App",
+              "importanceValue": 0
+            },
+            {
+              "name": "MiniAILive Document Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fast Verify Identity Verification Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enrich Customer Profiles",
+      "productCapabilities": []
+    },
+    {
+      "name": "Manage the Customer Identity Lifecycle",
+      "productCapabilities": []
+    }
+  ]
+}

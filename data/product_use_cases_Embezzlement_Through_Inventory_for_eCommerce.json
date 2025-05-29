@@ -37,6 +37,41 @@
       ]
     },
     {
+      "name": "Manage Employee User Roles and Permissions",
+      "productCapabilities": [
+        {
+          "id": 5,
+          "name": "Role Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Detection",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Workforce Universal Directory",
+          "importance": 3,
+          "products": [
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Detection",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Document an Audit Trail",
       "productCapabilities": [
         {
@@ -63,41 +98,6 @@
           "id": 4,
           "name": "ERP and Supply Chain Data Integration",
           "importance": 4,
-          "products": [
-            {
-              "name": "fraud.com aiReflex",
-              "importanceValue": 0
-            },
-            {
-              "name": "Integrity Asia Detection",
-              "importanceValue": 0
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Manage Employee User Roles and Permissions",
-      "productCapabilities": [
-        {
-          "id": 5,
-          "name": "Role Management",
-          "importance": 4,
-          "products": [
-            {
-              "name": "fraud.com aiReflex",
-              "importanceValue": 0
-            },
-            {
-              "name": "Integrity Asia Detection",
-              "importanceValue": 0
-            }
-          ]
-        },
-        {
-          "id": 6,
-          "name": "Workforce Universal Directory",
-          "importance": 3,
           "products": [
             {
               "name": "fraud.com aiReflex",

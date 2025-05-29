@@ -1,0 +1,4855 @@
+{
+  "productUseCaseName": "Business Email Compromise",
+  "productRequirements": [
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Device Behavior Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "App-based Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Adaptive Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 4
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Passwordless Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Biometric Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 8,
+          "name": "Bot Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Device Behavior Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Data Breach Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 4
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Device Health Status Detection",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Triage Email Threats",
+      "productCapabilities": [
+        {
+          "id": 16,
+          "name": "Anti-phishing",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 4
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 4
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 4
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 4
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 4
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 4
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 4
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 4
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 4
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 4
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 4
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 4
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 4
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Email Filtering",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 4
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 4
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 4
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 4
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 4
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 4
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 4
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 4
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 4
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 4
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 4
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Integrate and Secure Data from Internal and External Systems",
+      "productCapabilities": [
+        {
+          "id": 12,
+          "name": "Cybersecurity Continuous Event Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 13,
+          "name": "Cybersecurity Continuous Event Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prevent Email Threats",
+      "productCapabilities": [
+        {
+          "id": 14,
+          "name": "Email Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 4
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 4
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 4
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 4
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 4
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 4
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 4
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Safeguard Organizational Data",
+      "productCapabilities": [
+        {
+          "id": 15,
+          "name": "Data Loss Prevention (DLP)",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ComplyAdvantage Fraud Detection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aura Application",
+              "importanceValue": 0
+            },
+            {
+              "name": "PaymentWorks Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Cloud Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortinet Security Operations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Core Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Impersonation Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Adaptive Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolster Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace / EMAIL",
+              "importanceValue": 0
+            },
+            {
+              "name": "IronVest for Enterprise",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustmi Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trend Micro Trend Vision One",
+              "importanceValue": 0
+            },
+            {
+              "name": "NetGuardians Internal Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Unified Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "nsKnox PaymentKnox for Accounts Payable",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustpair Vendor Fraud Prevention Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bitdefender GravityZone Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Acronis Cyber Protect",
+              "importanceValue": 4
+            },
+            {
+              "name": "IPQualityScore Email Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "eMcREY Apex Payment Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trustwave MailMarshal",
+              "importanceValue": 0
+            },
+            {
+              "name": "ZENDATA Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Defentry Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "RSec Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cloudflare SASE & SSE Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cisco Breach Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cisco User Protection Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Networks Managed XDR",
+              "importanceValue": 0
+            },
+            {
+              "name": "Barracuda Cybersecurity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Darktrace ActiveAI Security Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Inbound Email Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Account Takeover Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abnormal AI Security Mailbox",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fortra Email Security ",
+              "importanceValue": 0
+            },
+            {
+              "name": "retarus Secure Email Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Proofpoint Nexus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Heimdal Email & Collaboration Security",
+              "importanceValue": 0
+            },
+            {
+              "name": "DmarcDkim DMARC Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphite Supplier Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Rotate Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID Agent Graphus",
+              "importanceValue": 0
+            },
+            {
+              "name": "Altospam Mailsafe",
+              "importanceValue": 0
+            },
+            {
+              "name": "FortifyData Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Broadcom Symantec Enterprise Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "White Hat IT Security Rapid Incident Response",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data443 Cyren Threat Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datto Unified Backup",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SecurityHive Mail Spectator",
+              "importanceValue": 0
+            },
+            {
+              "name": "Material Cloud Officer Security Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Radiant Security AI SOC Analyst",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ascend Technologies Identity Protection & MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "F6 Business Email Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "Graphus Anti-Phishing Software",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter PRO",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Exchange Module",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "SPAMfighter Hosted Mail Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "Group-IB Unified Risk Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SpamHero Spam Filtering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Conbool Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Compliance & Awareness",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hornetsecurity 365 Total Protection Enterprise Backup",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Email Threats",
+      "productCapabilities": []
+    }
+  ]
+}

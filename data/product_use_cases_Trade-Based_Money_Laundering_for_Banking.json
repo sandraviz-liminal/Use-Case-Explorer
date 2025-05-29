@@ -1,0 +1,975 @@
+{
+  "productUseCaseName": "Trade-Based Money Laundering for Banking",
+  "productRequirements": [
+    {
+      "name": "Perform Business Identification (KYB)",
+      "productCapabilities": [
+        {
+          "id": 8,
+          "name": "Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "AML Risk Scoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Ultimate Beneficial Ownership (UBO) Identification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Non-Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Customer Enhanced Due Diligence (EDD)",
+      "productCapabilities": [
+        {
+          "id": 13,
+          "name": "Non-Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Ultimate Beneficial Ownership (UBO) Identification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "AML Risk Scoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Trade-based Money Laundering Alert and Case Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Trade-based Money Laundering Surveillance",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Integrate and Secure Data from Internal and External Systems",
+      "productCapabilities": [
+        {
+          "id": 5,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Trade-Based Money Laundering Data Integration",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 4
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 4,
+          "name": "Trade-Based Money Laundering Audit Trail and Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 7,
+          "name": "Trade-based Money Laundering Alert and Case Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 4
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tune Models for Accuracy and Performance",
+      "productCapabilities": [
+        {
+          "id": 17,
+          "name": "Trade-based Money Laundering Model Optimization",
+          "importance": 4,
+          "products": [
+            {
+              "name": "DigiDoe Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eastnets SafeTrade",
+              "importanceValue": 0
+            },
+            {
+              "name": "Lyods AML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Kalolytic TRADE SCAN",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia AI AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Data Gear AML Trade Base",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complidata TradeSpeed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vespia Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dow Jones RiskCenter Trade Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tata Consultancy Services BaNCS",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

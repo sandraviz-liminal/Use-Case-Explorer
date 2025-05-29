@@ -1,6 +1,6 @@
-  // --------------------------------------
-  //  Canvas
-  // --------------------------------------
+// --------------------------------------
+//  Canvas
+// --------------------------------------
 
   const margin = { top: 300, right: 200, bottom: 30, left: 350 };
   const width = 2000;
@@ -42,18 +42,25 @@ innerChart.call(tooltip);
 // Data loading
 // --------------------------------------
 
+//d3.json("data/Account_Sharing_Streaming_Services.json").then(json => {
 //d3.json("data/Account_takeover_prevention_banking.json").then(json => {
+//d3.json("data/ACH_Fraud_Banking.json").then(json => {
 //d3.json("data/ACH_Kiting_Banking.json").then(json => {
 //d3.json("data/Age_Estimation.json").then(json => {
 //d3.json("data/Age_Verification_eCommerce.json").then(json => {
-//d3.json("data/Chargeback_Fraud_eCommerce.json").then(json => {
-//d3.json("data/Chargeback_Management.json").then(json => {
+//d3.json("data/AI_Data_Governance_Banking.json").then(json => {
+//d3.json("data/AML_Transaction_Banking.json").then(json => {
+//d3.json("data/Anti-Bribery_and_Corruption_Banking.json").then(json => {
+//d3.json("data/Chargeback_Fraud_Prevention_eCommerce.json").then(json => {
+//d3.json("data/Chargeback_Management_eCommerce.json").then(json => {
 //d3.json("data/Commission_Fraud.json").then(json => {
 //d3.json("data/Embezzlement_eCommerce.json").then(json => {
 //d3.json("data/Fake_Supplier_Fraud.json").then(json => {
-//d3.json("data/Ghost_Employee.json").then(json => {
+d3.json("data/Ghost_Employee.json").then(json => {
 //d3.json("data/KYC_Banking.json").then(json => {
-d3.json("data/Sanctions_Screening_Banking.json").then(json => {
+//d3.json("data/Sanctions_Screening_Banking.json").then(json => {
+//d3.json("data/Workforce_IAM_Banking.json").then(json => {
+//d3.json("data/Workforce_IAM.json").then(json => {
 
   const data = [];
   const header = [];
@@ -109,8 +116,8 @@ d3.json("data/Sanctions_Screening_Banking.json").then(json => {
     });
   });
 
-  //console.log("Header:", header);
-  //console.log("Data:", data);
+  console.log("Header:", header);
+  console.log("Data:", data);
 
   // --------------------------------------
   // Scales

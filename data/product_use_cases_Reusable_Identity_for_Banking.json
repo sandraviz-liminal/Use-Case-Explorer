@@ -1,0 +1,5740 @@
+{
+  "productUseCaseName": "Reusable Identity for Banking",
+  "productRequirements": [
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Biometric Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 4
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 4
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Customer Identity Self-Service Capabilities",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 4
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 4
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Single Sign-On (SSO)",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 3
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Passwordless Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 3
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 3
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Adaptive Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 3
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Access Management",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Customer Authentication Orchestration",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Identity Protocol Interoperability",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Customer Universal Directory",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Mobile Carrier API Access",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 26,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "Synthetic Identity Fraud Risk Scoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Customer Risk Profiling",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Identity Resolution",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "DeepFake Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Bot Detection",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 34,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "Unified Customer View Creation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "Cross-device Identity Graphing",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "Audience Segmentation",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "name": "SIM Swap Detection",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "Mobile Carrier API Access",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Customer Due Diligence (CDD)",
+      "productCapabilities": [
+        {
+          "id": 47,
+          "name": "DOB Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 48,
+          "name": "Address Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 49,
+          "name": "Passive Liveness Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 50,
+          "name": "Active Liveness Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 4
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 51,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "name": "Name Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 4
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 4
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 54,
+          "name": "PEP (Politically Exposed Persons) Screening",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 3
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collect and Manage User Consent",
+      "productCapabilities": [
+        {
+          "id": 19,
+          "name": "Consent and Preference Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "GDPR Data Compliance Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "CCPA Data Compliance Monitoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 3
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Data Governance Frameworks",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Data Governance Policy Engine",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Data Governance Support",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Privacy and Consent Regulatory Research Platform",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform User Identity Verification",
+      "productCapabilities": [
+        {
+          "id": 55,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 4
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 4
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 56,
+          "name": "Name Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 57,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 58,
+          "name": "Mobile Device Identity Binding",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 59,
+          "name": "Identity Verification Orchestration",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 60,
+          "name": "Physical Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 3
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 3
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 3
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 3
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 3
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enable Identity Self Service Capabilities",
+      "productCapabilities": [
+        {
+          "id": 41,
+          "name": "Customer Identity Self-Service Capabilities",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "Consent and Preference Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "name": "Account Recovery",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 44,
+          "name": "GDPR Data Compliance Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "name": "CCPA Data Compliance Monitoring",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage the Customer Identity Lifecycle",
+      "productCapabilities": [
+        {
+          "id": 46,
+          "name": "Customer Identity Self-Service Capabilities",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Bloom App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signicat Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finicity Manage",
+              "importanceValue": 0
+            },
+            {
+              "name": "itsme App",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneID Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "Mitek Identity Verification Platform (MiVIP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Dock Labs Truvera",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow Identity Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "MitID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "Blockpass Individual Verification (KYC)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trinsic Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "BankID App",
+              "importanceValue": 0
+            },
+            {
+              "name": "IdRamp Integrated Identity Orchestration Service",
+              "importanceValue": 0
+            },
+            {
+              "name": "idwall Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finansiell ID-Teknik BankID Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ION Analytics KYC6",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDnow YRIS",
+              "importanceValue": 0
+            },
+            {
+              "name": "CycurID Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ondato Reusable Age Verification",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1675 @@
+{
+  "productUseCaseName": "Suspicious Activity Reporting for Banking",
+  "productRequirements": [
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "AML Risk Scoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alloy Ongoing Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fenergo Client Lifecycle Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Complytek Onboarding, KYC, AML & Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer ComplianSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aquilan Technologies Patriot Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Partners RegTechONE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYC Hub Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Napier AI Continuum",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tookitaki FinCense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alacer Velocity FinCrime Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Regtank AML & KYC Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "Regtank Cryptocurrency Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "AMLYZE AML Investigations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vneuron Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML UAE Regulatory Reporting Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML UAE KYC and CDD Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Idenfo Direct - KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskcentr Anti-money laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalVision Systems Patriot Officer",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDMERIT IDMkyx",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTANCE Anti-money Laundering (AML)",
+              "importanceValue": 0
+            },
+            {
+              "name": "AcuityTec KYC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effiya Technologies Investigation Studio",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidAML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SymphonyAI NetReveal Customer Due Diligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "AcuityTec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData MRB Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "The KYB Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Temenos Financial Crime Mitigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Lens Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Binderr Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ahrvo Network Ahrvo Comply",
+              "importanceValue": 0
+            },
+            {
+              "name": "FIS AML Compliance Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fynhaus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Screening & Monitoring Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": " Wolters Kluwer OneSumX",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskScout BSA Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Regulatory Filing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alloy Identity Risk Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Binderr AML Screening",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finch Innovate AML Compliance Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pideeco Financial Crime Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "TIC Company AMLOnline Portal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Manipal Technologies Limited CrossFraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Zyphe Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jack Henry Financial Crimes & Fraud Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Incubator AML Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "INFORM RiskShield",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Customer Risk Profiling",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alloy Ongoing Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fenergo Client Lifecycle Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Complytek Onboarding, KYC, AML & Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer ComplianSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aquilan Technologies Patriot Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Partners RegTechONE Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYC Hub Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Napier AI Continuum",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tookitaki FinCense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alacer Velocity FinCrime Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Regtank AML & KYC Screening",
+              "importanceValue": 4
+            },
+            {
+              "name": "Regtank Cryptocurrency Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "AMLYZE AML Investigations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vneuron Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML UAE Regulatory Reporting Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML UAE KYC and CDD Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Idenfo Direct - KYC Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskcentr Anti-money laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalVision Systems Patriot Officer",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDMERIT IDMkyx",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDENTANCE Anti-money Laundering (AML)",
+              "importanceValue": 0
+            },
+            {
+              "name": "AcuityTec KYC",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effiya Technologies Investigation Studio",
+              "importanceValue": 4
+            },
+            {
+              "name": "RapidAML Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SymphonyAI NetReveal Customer Due Diligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "AcuityTec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData MRB Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "The KYB Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Temenos Financial Crime Mitigation",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML Lens Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Binderr Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ahrvo Network Ahrvo Comply",
+              "importanceValue": 0
+            },
+            {
+              "name": "FIS AML Compliance Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fynhaus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Screening & Monitoring Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": " Wolters Kluwer OneSumX",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskScout BSA Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Regulatory Filing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alloy Identity Risk Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Binderr AML Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finch Innovate AML Compliance Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pideeco Financial Crime Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "TIC Company AMLOnline Portal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Manipal Technologies Limited CrossFraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Zyphe Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jack Henry Financial Crimes & Fraud Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Incubator AML Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "INFORM RiskShield",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "AML Transaction Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 4
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alloy Ongoing Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fenergo Client Lifecycle Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Complytek Onboarding, KYC, AML & Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer ComplianSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 4
+            },
+            {
+              "name": "Aquilan Technologies Patriot Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Partners RegTechONE Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYC Hub Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Napier AI Continuum",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tookitaki FinCense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alacer Velocity FinCrime Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Regtank AML & KYC Screening",
+              "importanceValue": 4
+            },
+            {
+              "name": "Regtank Cryptocurrency Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "AMLYZE AML Investigations",
+              "importanceValue": 4
+            },
+            {
+              "name": "Vneuron Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML UAE Regulatory Reporting Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML UAE KYC and CDD Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Idenfo Direct - KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskcentr Anti-money laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalVision Systems Patriot Officer",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDMERIT IDMkyx",
+              "importanceValue": 4
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDENTANCE Anti-money Laundering (AML)",
+              "importanceValue": 0
+            },
+            {
+              "name": "AcuityTec KYC",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effiya Technologies Investigation Studio",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidAML Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SymphonyAI NetReveal Customer Due Diligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "AcuityTec Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "NominoData MRB Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "The KYB Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Temenos Financial Crime Mitigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Lens Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Binderr Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ahrvo Network Ahrvo Comply",
+              "importanceValue": 0
+            },
+            {
+              "name": "FIS AML Compliance Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fynhaus Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML Screening & Monitoring Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": " Wolters Kluwer OneSumX",
+              "importanceValue": 4
+            },
+            {
+              "name": "RiskScout BSA Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Regulatory Filing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alloy Identity Risk Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Binderr AML Screening",
+              "importanceValue": 4
+            },
+            {
+              "name": "Finch Innovate AML Compliance Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Pideeco Financial Crime Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "TIC Company AMLOnline Portal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Manipal Technologies Limited CrossFraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zyphe Anti-Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Jack Henry Financial Crimes & Fraud Risk",
+              "importanceValue": 4
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Incubator AML Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "INFORM RiskShield",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 4,
+          "name": "AML Transaction Monitoring Audit Trail Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alloy Ongoing Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fenergo Client Lifecycle Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complytek Onboarding, KYC, AML & Fraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataSeer ComplianSeer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aquilan Technologies Patriot Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Partners RegTechONE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "KYC Hub Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Napier AI Continuum",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tookitaki FinCense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alacer Velocity FinCrime Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Regtank AML & KYC Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "Regtank Cryptocurrency Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "AMLYZE AML Investigations",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vneuron Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML UAE Regulatory Reporting Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML UAE KYC and CDD Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Idenfo Direct - KYC Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskcentr Anti-money laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalVision Systems Patriot Officer",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDMERIT IDMkyx",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTANCE Anti-money Laundering (AML)",
+              "importanceValue": 0
+            },
+            {
+              "name": "AcuityTec KYC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effiya Technologies Investigation Studio",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidAML Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SymphonyAI NetReveal Customer Due Diligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "AcuityTec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData MRB Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "The KYB Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Temenos Financial Crime Mitigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Lens Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Binderr Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ahrvo Network Ahrvo Comply",
+              "importanceValue": 0
+            },
+            {
+              "name": "FIS AML Compliance Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fynhaus Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML Screening & Monitoring Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " Wolters Kluwer OneSumX",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskScout BSA Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Regulatory Filing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alloy Identity Risk Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Binderr AML Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finch Innovate AML Compliance Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pideeco Financial Crime Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "TIC Company AMLOnline Portal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Manipal Technologies Limited CrossFraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zyphe Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "Jack Henry Financial Crimes & Fraud Risk",
+              "importanceValue": 0
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Incubator AML Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "INFORM RiskShield",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 5,
+          "name": "AML Alert and Case Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alloy Ongoing Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fenergo Client Lifecycle Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 4
+            },
+            {
+              "name": "Complytek Onboarding, KYC, AML & Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer ComplianSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Aquilan Technologies Patriot Manager",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Partners RegTechONE Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYC Hub Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Napier AI Continuum",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tookitaki FinCense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alacer Velocity FinCrime Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Regtank AML & KYC Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "Regtank Cryptocurrency Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "AMLYZE AML Investigations",
+              "importanceValue": 4
+            },
+            {
+              "name": "Vneuron Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML UAE Regulatory Reporting Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML UAE KYC and CDD Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Idenfo Direct - KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskcentr Anti-money laundering",
+              "importanceValue": 0
+            },
+            {
+              "name": "GlobalVision Systems Patriot Officer",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDMERIT IDMkyx",
+              "importanceValue": 0
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTANCE Anti-money Laundering (AML)",
+              "importanceValue": 0
+            },
+            {
+              "name": "AcuityTec KYC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effiya Technologies Investigation Studio",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidAML Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "SymphonyAI NetReveal Customer Due Diligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "AcuityTec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData MRB Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "The KYB Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Temenos Financial Crime Mitigation",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML Lens Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Binderr Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ahrvo Network Ahrvo Comply",
+              "importanceValue": 4
+            },
+            {
+              "name": "FIS AML Compliance Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fynhaus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Screening & Monitoring Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " Wolters Kluwer OneSumX",
+              "importanceValue": 0
+            },
+            {
+              "name": "RiskScout BSA Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Unit21 Regulatory Filing",
+              "importanceValue": 0
+            },
+            {
+              "name": "Alloy Identity Risk Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Binderr AML Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finch Innovate AML Compliance Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": "Pideeco Financial Crime Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "TIC Company AMLOnline Portal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Manipal Technologies Limited CrossFraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zyphe Anti-Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Jack Henry Financial Crimes & Fraud Risk",
+              "importanceValue": 4
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Incubator AML Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "INFORM RiskShield",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prepare and Submit Regulatory Reports",
+      "productCapabilities": [
+        {
+          "id": 6,
+          "name": "Electronic AML Regulatory Report Filing",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Featurespace ARIC Risk Hub",
+              "importanceValue": 0
+            },
+            {
+              "name": "NICE Actimize Xceed",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alloy Ongoing Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Abrigo Financial Crime",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fenergo Client Lifecycle Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ComplyAdvantage Mesh",
+              "importanceValue": 0
+            },
+            {
+              "name": "Complytek Onboarding, KYC, AML & Fraud",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataSeer ComplianSeer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Effectiv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 4
+            },
+            {
+              "name": "Aquilan Technologies Patriot Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML Partners RegTechONE Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Oscilar Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alessa AML Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "KYC Hub Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Napier AI Continuum",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tookitaki FinCense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alacer Velocity FinCrime Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 AML Transaction Monitoring",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Case Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Regtank AML & KYC Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "Regtank Cryptocurrency Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "AMLYZE AML Investigations",
+              "importanceValue": 4
+            },
+            {
+              "name": "Vneuron Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Clari5 Trade Based Anti-Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "SAS Anti-Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Drona Pay Anti Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML UAE Regulatory Reporting Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML UAE KYC and CDD Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Idenfo Direct - KYC Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskcentr Anti-money laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "GlobalVision Systems Patriot Officer",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDMERIT IDMkyx",
+              "importanceValue": 4
+            },
+            {
+              "name": "ACTICO Decision Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Gueno Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDENTANCE Anti-money Laundering (AML)",
+              "importanceValue": 4
+            },
+            {
+              "name": "AcuityTec KYC",
+              "importanceValue": 0
+            },
+            {
+              "name": "Effiya Technologies Investigation Studio",
+              "importanceValue": 0
+            },
+            {
+              "name": "RapidAML Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SymphonyAI NetReveal Customer Due Diligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "AcuityTec Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "NominoData MRB Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "The KYB Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Temenos Financial Crime Mitigation",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Lens Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Binderr Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ahrvo Network Ahrvo Comply",
+              "importanceValue": 4
+            },
+            {
+              "name": "FIS AML Compliance Manager",
+              "importanceValue": 4
+            },
+            {
+              "name": "Fynhaus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "AML Screening & Monitoring Solution",
+              "importanceValue": 0
+            },
+            {
+              "name": " Wolters Kluwer OneSumX",
+              "importanceValue": 4
+            },
+            {
+              "name": "RiskScout BSA Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Unit21 Regulatory Filing",
+              "importanceValue": 4
+            },
+            {
+              "name": "Alloy Identity Risk Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Binderr AML Screening",
+              "importanceValue": 0
+            },
+            {
+              "name": "Finch Innovate AML Compliance Solution",
+              "importanceValue": 4
+            },
+            {
+              "name": "Pideeco Financial Crime Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "TIC Company AMLOnline Portal",
+              "importanceValue": 4
+            },
+            {
+              "name": "Manipal Technologies Limited CrossFraud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Zyphe Anti-Money Laundering",
+              "importanceValue": 4
+            },
+            {
+              "name": "Jack Henry Financial Crimes & Fraud Risk",
+              "importanceValue": 4
+            },
+            {
+              "name": "Xertilox Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "AML Incubator AML Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "INFORM RiskShield",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

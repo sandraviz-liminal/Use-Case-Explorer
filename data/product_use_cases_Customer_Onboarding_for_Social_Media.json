@@ -1,0 +1,1647 @@
+{
+  "productUseCaseName": "Customer Onboarding for Social Media",
+  "productRequirements": [
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Behavioral Biometrics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Customer Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Device Behavior Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Biometric Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 3
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Single Sign-On (SSO)",
+          "importance": 2,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Continuous Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 2
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 2
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Passwordless Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 2
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Multi-Factor Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 2
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 2
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Adaptive Authentication",
+          "importance": 2,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 2
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 2
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 2
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Mobile Carrier API Access",
+          "importance": 2,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Collect and Manage User Consent",
+      "productCapabilities": [
+        {
+          "id": 14,
+          "name": "Consent and Preference Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "GDPR Data Compliance Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "CCPA Data Compliance Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Data Governance Policy Engine",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Privacy and Consent Regulatory Research Platform",
+          "importance": 2,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Create a Centralized Directory of Customer Identities",
+      "productCapabilities": [
+        {
+          "id": 19,
+          "name": "Directory Services",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Customer Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate a Dynamic Trust Score",
+      "productCapabilities": [
+        {
+          "id": 22,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 4
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Behavioral Analytics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Enrich Customer Profiles",
+      "productCapabilities": [
+        {
+          "id": 21,
+          "name": "Data Enrichment",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Customer Accounts, Profiles, and Permissions",
+      "productCapabilities": [
+        {
+          "id": 24,
+          "name": "Customer Universal Directory",
+          "importance": 4,
+          "products": [
+            {
+              "name": "AU10TIX Identity Verification Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Messaging API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stytch Consumer Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Trulioo Identity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Transmit Security Mosaic ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verosint Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Persona Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prembly IdentityPass",
+              "importanceValue": 0
+            },
+            {
+              "name": "AU10TIX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkin.com Face Recognition",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cidaas ID Validator",
+              "importanceValue": 0
+            },
+            {
+              "name": "elephant Trust for Sign-Up",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neokred ProfileX",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage the Customer Identity Lifecycle",
+      "productCapabilities": []
+    }
+  ]
+}

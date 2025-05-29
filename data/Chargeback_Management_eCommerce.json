@@ -1,0 +1,884 @@
+{
+  "productUseCaseName": "Chargeback Management for eCommerce",
+  "productRequirements": [
+    {
+      "name": "Integrate and Secure Data from Internal and External Systems",
+      "productCapabilities": [
+        {
+          "id": 2,
+          "name": "Unified Customer View Creation",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Accertify Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Apruvd Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "FraudFix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataDome Bot Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataDome Cyberfraud Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Footprint, Device Intelligence, ID Verification and AML Compliance  ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Justt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com Udentify",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com fcase",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fingerprint Device Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GeoComply Chargeback Integrator (GCI)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ChargebackOps Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Covery AI VMPI Chargeback Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "nSure.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vesta Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Payments Optimization Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Konduto Complete",
+              "importanceValue": 0
+            },
+            {
+              "name": "Konduto Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuvei Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethoca Fraud Insights for Merchants",
+              "importanceValue": 0
+            },
+            {
+              "name": "Web Shield Chargeback Portal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stripe Radar",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolt Ignite",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eye4Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MaxMind Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chargeback Gurus Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearSale Chargeback",
+              "importanceValue": 0
+            },
+            {
+              "name": "Covery AI Ethoca Chargeback Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "ChargePay WinResponse",
+              "importanceValue": 0
+            },
+            {
+              "name": "ChargebackStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Disputes",
+              "importanceValue": 0
+            },
+            {
+              "name": "TELUS Digital Experience Financial Crime & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "iNymbus Deductions Xchange",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chargeflow Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Disputifier Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CoreCard Software Inc. Chargeback",
+              "importanceValue": 0
+            },
+            {
+              "name": "dLocal Defense Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Casap Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MerchantRMS Solution",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Customer Data Linking",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Accertify Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Apruvd Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "FraudFix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataDome Bot Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataDome Cyberfraud Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Footprint, Device Intelligence, ID Verification and AML Compliance  ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Justt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com Udentify",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com fcase",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fingerprint Device Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GeoComply Chargeback Integrator (GCI)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ChargebackOps Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Covery AI VMPI Chargeback Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "nSure.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vesta Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Payments Optimization Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Konduto Complete",
+              "importanceValue": 0
+            },
+            {
+              "name": "Konduto Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuvei Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethoca Fraud Insights for Merchants",
+              "importanceValue": 0
+            },
+            {
+              "name": "Web Shield Chargeback Portal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stripe Radar",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolt Ignite",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eye4Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MaxMind Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chargeback Gurus Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearSale Chargeback",
+              "importanceValue": 0
+            },
+            {
+              "name": "Covery AI Ethoca Chargeback Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "ChargePay WinResponse",
+              "importanceValue": 0
+            },
+            {
+              "name": "ChargebackStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Disputes",
+              "importanceValue": 0
+            },
+            {
+              "name": "TELUS Digital Experience Financial Crime & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "iNymbus Deductions Xchange",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chargeflow Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Disputifier Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CoreCard Software Inc. Chargeback",
+              "importanceValue": 0
+            },
+            {
+              "name": "dLocal Defense Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Casap Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MerchantRMS Solution",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Chargeback Audit Trail",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Accertify Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Apruvd Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "FraudFix Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataDome Bot Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataDome Cyberfraud Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Digital Footprint, Device Intelligence, ID Verification and AML Compliance  ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Justt Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com Udentify",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com fcase",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fingerprint Device Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GeoComply Chargeback Integrator (GCI)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ChargebackOps Chargeback Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Covery AI VMPI Chargeback Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "nSure.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vesta Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Signifyd Payments Optimization Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Konduto Complete",
+              "importanceValue": 0
+            },
+            {
+              "name": "Konduto Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuvei Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethoca Fraud Insights for Merchants",
+              "importanceValue": 0
+            },
+            {
+              "name": "Web Shield Chargeback Portal",
+              "importanceValue": 0
+            },
+            {
+              "name": "Stripe Radar",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolt Ignite",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eye4Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MaxMind Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chargeback Gurus Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearSale Chargeback",
+              "importanceValue": 0
+            },
+            {
+              "name": "Covery AI Ethoca Chargeback Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "ChargePay WinResponse",
+              "importanceValue": 0
+            },
+            {
+              "name": "ChargebackStop Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Checkout.com Disputes",
+              "importanceValue": 0
+            },
+            {
+              "name": "TELUS Digital Experience Financial Crime & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "iNymbus Deductions Xchange",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chargeflow Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Disputifier Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CoreCard Software Inc. Chargeback",
+              "importanceValue": 0
+            },
+            {
+              "name": "dLocal Defense Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "Casap Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MerchantRMS Solution",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 4,
+          "name": "Chargeback Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Accertify Chargeback Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Riskified Platform ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sumsub Transaction Monitoring",
+              "importanceValue": 0
+            },
+            {
+              "name": "Apruvd Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "FraudFix Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "DataDome Bot Protect",
+              "importanceValue": 0
+            },
+            {
+              "name": "DataDome Cyberfraud Protection Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Forter Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Digital Footprint, Device Intelligence, ID Verification and AML Compliance  ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ravelin Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signifyd Commerce Protection Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Justt Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "fraud.com Udentify",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com aiReflex",
+              "importanceValue": 0
+            },
+            {
+              "name": "fraud.com fcase",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fingerprint Device Intelligence Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Fraud.net Entity Risk Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sardine Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GeoComply Chargeback Integrator (GCI)",
+              "importanceValue": 0
+            },
+            {
+              "name": "Hummingbird Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Datavisor Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ChargebackOps Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Covery AI VMPI Chargeback Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "nSure.ai Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Vesta Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Signifyd Payments Optimization Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Konduto Complete",
+              "importanceValue": 0
+            },
+            {
+              "name": "Konduto Performance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Nuvei Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethoca Fraud Insights for Merchants",
+              "importanceValue": 0
+            },
+            {
+              "name": "Web Shield Chargeback Portal",
+              "importanceValue": 4
+            },
+            {
+              "name": "Stripe Radar",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bolt Ignite",
+              "importanceValue": 4
+            },
+            {
+              "name": "NoFraud Protection",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Chargeback Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Eye4Fraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "MaxMind Fraud Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chargeback Gurus Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "ClearSale Chargeback",
+              "importanceValue": 0
+            },
+            {
+              "name": "Covery AI Ethoca Chargeback Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "ChargePay WinResponse",
+              "importanceValue": 4
+            },
+            {
+              "name": "ChargebackStop Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Checkout.com Disputes",
+              "importanceValue": 4
+            },
+            {
+              "name": "TELUS Digital Experience Financial Crime & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "iNymbus Deductions Xchange",
+              "importanceValue": 0
+            },
+            {
+              "name": "NoFraud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Chargeflow Automation",
+              "importanceValue": 0
+            },
+            {
+              "name": "Disputifier Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CoreCard Software Inc. Chargeback",
+              "importanceValue": 0
+            },
+            {
+              "name": "dLocal Defense Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "Casap Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "MerchantRMS Solution",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Safeguard Customer Data & PII",
+      "productCapabilities": []
+    }
+  ]
+}

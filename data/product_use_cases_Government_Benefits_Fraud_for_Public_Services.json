@@ -1,0 +1,2926 @@
+{
+  "productUseCaseName": "Government Benefits Fraud for Public Services",
+  "productRequirements": [
+    {
+      "name": "Generate a Dynamic User Risk Score",
+      "productCapabilities": [
+        {
+          "id": 6,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Bot Detection",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 3
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 3
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 3
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Behavioral Biometrics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 2
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 2
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 2
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 2
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Behavioral Analytics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 2
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 2
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Customer Due Diligence (CDD)",
+      "productCapabilities": [
+        {
+          "id": 16,
+          "name": "Address Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Active Liveness Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Name Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Passive Liveness Detection",
+          "importance": 3,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Location Intelligence",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Behavioral Analytics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 2
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 2
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Behavioral Biometrics",
+          "importance": 2,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 2
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 2
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 2
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 2
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 2
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Customer Enhanced Due Diligence (EDD)",
+      "productCapabilities": [
+        {
+          "id": 22,
+          "name": "Physically-present Identity Proofing",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Document Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 24,
+          "name": "Name Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Government Identification Number Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 14,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 4
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 4
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Fraud Alert Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate Applicant Risk Score",
+      "productCapabilities": [
+        {
+          "id": 13,
+          "name": "Government Benefits Application Scoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 26,
+          "name": "Government Benefits Audit Trail Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "ID.me Identity Gateway",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruLookup",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure RiskOS Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruIQ",
+              "importanceValue": 0
+            },
+            {
+              "name": "BioCatch Connect",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ThreatMetrix",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis FraudPoint",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis ID Compass",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis InstantID",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Emailage",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Phone Finder & Phone Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Risk Defense Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis TrueID",
+              "importanceValue": 0
+            },
+            {
+              "name": "Socure Fraud & Risk Solutions",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Unify Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "TransUnion TruValidate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Bureau Decisioning Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Thomson Reuters Fraud Detect",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Digital Wallet",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis BehavioSec",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax Identity Proofing Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "ID.me Credential Validation",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Instant Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "TrackLight Suite",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

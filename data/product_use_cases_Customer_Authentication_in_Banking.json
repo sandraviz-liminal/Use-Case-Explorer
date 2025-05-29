@@ -1,0 +1,6290 @@
+{
+  "productUseCaseName": "Customer Authentication in Banking",
+  "productRequirements": [
+    {
+      "name": "Authenticate User Accounts",
+      "productCapabilities": [
+        {
+          "id": 7,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Biometric Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 4
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 4
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 4
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Adaptive Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 4
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Location Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 3
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 3
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 3
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Passwordless Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 3
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 3
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 3
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Device Behavior Intelligence",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Customer Authentication Orchestration",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trigger Dynamic Authentication Based on User Risk",
+      "productCapabilities": [
+        {
+          "id": 24,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 25,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 26,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 4
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 4
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 27,
+          "name": "Adaptive Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 4
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 4
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 28,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 29,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 3
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 3
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 30,
+          "name": "Passwordless Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 3
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 3
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 3
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 3
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 32,
+          "name": "Location Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 33,
+          "name": "Device Behavior Intelligence",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 34,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 35,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "Biometric Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 4
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 37,
+          "name": "Multi-Factor Authentication",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 4
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 4
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 4
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 4
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 4
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 4
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 4
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 4
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 38,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 39,
+          "name": "App-based Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 3
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 3
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 40,
+          "name": "Continuous Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 3
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 41,
+          "name": "Location Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 42,
+          "name": "Passwordless Authentication",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 3
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 3
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 3
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 3
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 3
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 3
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 3
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 3
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 3
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "name": "Device Behavior Intelligence",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Anomalous User Activity",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "Bot Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Location Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Device Behavior Intelligence",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Generate a Dynamic User Risk Score",
+      "productCapabilities": [
+        {
+          "id": 18,
+          "name": "Bot Detection",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "name": "Fraud Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 4
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Behavioral Analytics",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 4
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 21,
+          "name": "Behavioral Biometrics",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 3
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 22,
+          "name": "Location Intelligence",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 3
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 3
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 23,
+          "name": "Device Behavior Intelligence",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Recover User Account Access",
+      "productCapabilities": [
+        {
+          "id": 44,
+          "name": "Account Recovery",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 4
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 4
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 45,
+          "name": "Personalized Security Alerts",
+          "importance": 2,
+          "products": [
+            {
+              "name": "Secret Double Octopus Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ping Identity PingOne Cloud Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Verify API",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Mobile Authentication ",
+              "importanceValue": 0
+            },
+            {
+              "name": "Incode Omni Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "LoginID Authentication Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Identity",
+              "importanceValue": 0
+            },
+            {
+              "name": "Verisec 10XAUTH",
+              "importanceValue": 0
+            },
+            {
+              "name": "Auth0 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Prove Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Tecalis Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "OneSpan Hardware Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "TMT ID Authenticate",
+              "importanceValue": 0
+            },
+            {
+              "name": "Shufti Global Trust Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Okta Customer Identity Cloud",
+              "importanceValue": 0
+            },
+            {
+              "name": "Futurae App",
+              "importanceValue": 0
+            },
+            {
+              "name": "nextAuth Mobile Passwordless Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Asignio Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch OTAC",
+              "importanceValue": 0
+            },
+            {
+              "name": "swIDch Auth",
+              "importanceValue": 0
+            },
+            {
+              "name": "authID Biometric Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "iProov Authentication",
+              "importanceValue": 0
+            },
+            {
+              "name": "Twilio Verify",
+              "importanceValue": 0
+            },
+            {
+              "name": "Amwal Tech Authentication Suite",
+              "importanceValue": 0
+            },
+            {
+              "name": "WhatsAuth Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "HYPR Identity Assurance Platform Customer",
+              "importanceValue": 0
+            },
+            {
+              "name": "Telesign Intelligence",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock MFA",
+              "importanceValue": 0
+            },
+            {
+              "name": "Cybernexa CyLock PKI",
+              "importanceValue": 0
+            },
+            {
+              "name": "AuthNEX AuNEX",
+              "importanceValue": 0
+            },
+            {
+              "name": "IDgo for Online Banking",
+              "importanceValue": 0
+            },
+            {
+              "name": "Spriv Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Equifax FraudIQ",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2126 @@
+{
+  "productUseCaseName": "Anti-Bribery and Corruption (ABAC) for Banking",
+  "productRequirements": [
+    {
+      "name": "Generate a Dynamic User Risk Score",
+      "productCapabilities": [
+        {
+          "id": 4,
+          "name": "ABAC Risk Assessment and Analysis",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Ultimate Beneficial Ownership (UBO) Identification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 4
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 4
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Non-Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 4
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Unified Customer View Creation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Perform Customer Enhanced Due Diligence (EDD)",
+      "productCapabilities": [
+        {
+          "id": 14,
+          "name": "Sanctions Screening",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 4
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 4
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 4
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Non-Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Government Legal Entity Identifier Verification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 4
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "Ultimate Beneficial Ownership (UBO) Identification",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 4
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 4
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 4
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 4
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 4
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 4
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Integrate and Secure Data from Internal and External Systems",
+      "productCapabilities": [
+        {
+          "id": 9,
+          "name": "Data Enrichment",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Customer Data Linking",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 4
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Unified Customer View Creation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Document an Audit Trail",
+      "productCapabilities": [
+        {
+          "id": 2,
+          "name": "ABAC Audit Trail Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Unified Customer View Creation",
+          "importance": 3,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Manage Investigations and Case Workflows",
+      "productCapabilities": [
+        {
+          "id": 12,
+          "name": "ABAC Regulatory Reporting",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "name": "ABAC Incident and Case Management",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Detect Suspicious Transactions",
+      "productCapabilities": [
+        {
+          "id": 1,
+          "name": "ABAC Compliance Monitoring",
+          "importance": 4,
+          "products": [
+            {
+              "name": "Nuggets Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "CSI WatchDOG AML",
+              "importanceValue": 0
+            },
+            {
+              "name": "Plaid Identity Verification",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis WorldCompliance Data",
+              "importanceValue": 0
+            },
+            {
+              "name": "LexisNexis Bridger Insight XG",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ripjar Labyrinth",
+              "importanceValue": 0
+            },
+            {
+              "name": "Integrity Asia Prevention",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Risk Assessment",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arctic Intelligence Health Check",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sigma360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Descartes Visual Compliance Risk Management",
+              "importanceValue": 0
+            },
+            {
+              "name": "Castle Hall DiligenceProfessional",
+              "importanceValue": 0
+            },
+            {
+              "name": "Ethixbase360 Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Background Verification Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Compliance.ai Regulatory Change Management Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "SignalX Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Anchor",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Simplified Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Square Facts Enhanced Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "Erraz Compliance Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Arc Attest Company Due Diligence Services",
+              "importanceValue": 0
+            },
+            {
+              "name": "Sanction Trace Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "GAN Integrity Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Moody's Entity Verification API",
+              "importanceValue": 0
+            },
+            {
+              "name": "G5 Integritas Risk & Compliance",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Employee (KYE)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Know Your Third Party (KYTP)",
+              "importanceValue": 0
+            },
+            {
+              "name": "MyComplianceOffice Platform",
+              "importanceValue": 0
+            },
+            {
+              "name": "Neoway Compliance",
+              "importanceValue": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
